@@ -1,4 +1,4 @@
-name: Playwright OrangeHr
+name: Playwright Gpos
 
 on:
   push:
@@ -94,5 +94,5 @@ jobs:
       run: |
         echo "Waiting for pages to deploy..."
         sleep 30
-        curl -s https://fadhil65.github.io/OrangeHR-PW-TS/ > /dev/null
+        curl -s https://fadhil65.github.io/GPOS/ > /dev/null
         echo "Pages warmed up! ✅"
