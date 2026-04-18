@@ -1,0 +1,11 @@
+node_modules/
+allure-results/
+allure-report/
+test-results/
+.features-gen/
+*.js
+*.d.ts
+!playwright.config.js
+
+# Environment — jangan commit, pakai .env.example sebagai template
+.env
