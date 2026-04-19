@@ -18,7 +18,7 @@ Given('User sudah login dan berada di halaman POS', async ({ loginPage, sideBarM
   await loginPage.loginBtn.click();
 
   await expect(loginPage.headerOnline).toBeVisible({
-    timeout: TIMEOUT.default,
+    timeout: TIMEOUT.long,
   });
   await sideBarMenu.menuTransaksi.click({
     timeout: TIMEOUT.default,

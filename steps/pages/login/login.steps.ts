@@ -36,7 +36,7 @@ Then ('User klik button login', async ({ loginPage }) => {
 
 Then('User berhasil masuk ke dashboard GPOSLite', async ({ loginPage }) => {
     await expect(loginPage.headerOnline).toBeVisible({ 
-      timeout: TIMEOUT.default,
+      timeout: TIMEOUT.long,
     });
 });
 

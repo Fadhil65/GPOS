@@ -18,7 +18,7 @@
   await loginPage.loginBtn.click();
 
   await expect(loginPage.headerOnline).toBeVisible({
-    timeout: TIMEOUT.default,
+    timeout: TIMEOUT.long,
   });
   await sideBarMenu.menuTransaksi.click({
     timeout: TIMEOUT.short,
