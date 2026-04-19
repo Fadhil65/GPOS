@@ -31,7 +31,7 @@ Then('User input password {string}',
 );
 
 Then ('User klik button login', async ({ loginPage }) => {
-    await loginPage.loginButton.click();
+    await loginPage.loginBtn.click();
 });
 
 Then('User berhasil masuk ke dashboard GPOSLite', async ({ loginPage }) => {

@@ -15,7 +15,7 @@ Given('User sudah login dan berada di halaman POS', async ({ loginPage, sideBarM
 
   await loginPage.usernameInput.fill('test.qa2');
   await loginPage.passwordInput.fill('GposLite*');
-  await loginPage.loginButton.click();
+  await loginPage.loginBtn.click();
 
   await expect(loginPage.headerOnline).toBeVisible({
     timeout: TIMEOUT.default,

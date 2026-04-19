@@ -8,7 +8,8 @@ export class posPage extends BasePage {
   readonly pluInput: Locator;
   readonly popUpProductSearch: Locator;
   readonly qtyInput: Locator;
-  readonly headerOnlinePos: Locator;  
+  readonly headerOnlinePos: Locator; 
+  readonly addItemToListBtn: Locator; 
 
   
 
@@ -20,5 +21,6 @@ export class posPage extends BasePage {
     this.popUpProductSearch = page.locator('td', { hasText: 'THROMBOPHOB GEL 20 GR' })
     this.qtyInput = page.locator('[name="qty"]');
     this.headerOnlinePos = page.locator('//span[contains(text(),"GPOS MINI 3 PROD DEP")]');
+    this.addItemToListBtn = page.locator('[title="Add Item To List"]');
   }
 }

@@ -18,7 +18,7 @@ export default defineConfig({
   },
   use: {
     baseURL: process.env.BASE_URL ?? 'https://mini3.gpos-efarmasi.com',
-    headless: process.env.HEADLESS == 'true',
+    headless: process.env.HEADLESS !== 'false',
     viewport: null, 
     ignoreHTTPSErrors: true,
     screenshot: 'only-on-failure',
