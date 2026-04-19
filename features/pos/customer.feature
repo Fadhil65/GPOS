@@ -15,7 +15,7 @@ Background:
     When User klik icon search pada field customer
     Then Popup list pelanggan tampil dan menampilkan seluruh data pelanggan
 
-  @pos @customer3 @positive @high
+  @pos @customer-search @positive @high
   Scenario: TC-POS-008 - Cari pelanggan dengan keyword minimal 4 karakter
     When User klik icon search pada field customer
     When User input keyword "fadh" minimal 4 karakter di field pelanggan
@@ -25,7 +25,7 @@ Background:
   # MODULE: POS - CUSTOMER SELECT
   # ─────────────────────────────────────────
 
-  @pos @customer4 @positive @high
+  @pos @customer-select @positive @high
   Scenario: TC-POS-009 - Pilih customer dari popup list pelanggan
     When User klik icon search pada field customer
     When User input keyword "fadh" minimal 4 karakter di field pelanggan

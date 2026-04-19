@@ -12,21 +12,18 @@ const testDir = defineBddConfig({
 
 export default defineConfig({
   testDir,
-  timeout: 30_000, 
+  timeout: 30_000,
   expect: {
     timeout: 5_000,
   },
   use: {
     baseURL: process.env.BASE_URL ?? 'https://mini3.gpos-efarmasi.com',
     headless: process.env.HEADLESS !== 'false',
-    viewport: null, 
+    viewport: null,
     ignoreHTTPSErrors: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
     launchOptions: {
-      ...(process.platform === 'linux' && {
-        executablePath: '/home/node/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell',
-      }),
       args: ['--start-maximized'],
     },
   },
@@ -41,11 +38,11 @@ export default defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { browserName: 'chromium' }
+      use: { browserName: 'chromium' },
     },
     {
       name: 'firefox',
-      use: { browserName: 'firefox' }
+      use: { browserName: 'firefox' },
     },
   ],
 });
