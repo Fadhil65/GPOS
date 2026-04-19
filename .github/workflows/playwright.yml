@@ -8,7 +8,7 @@ on:
   schedule:
   - cron: '0 13 * * *' # Running otomatis jam 20:00 WIB
   workflow_dispatch:
-
+    # Trigger manual dari GitHub Actions
 
 permissions:
   contents: write
@@ -28,7 +28,7 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 20
-        cache: npm
+        cache: 'npm'
 
     - name: Install dependencies
       run: npm ci
@@ -38,15 +38,16 @@ jobs:
 
     - name: Cache Playwright Browsers
       uses: actions/cache@v4
+      id: playwright-cache
       with:
         path: ~/.cache/ms-playwright
         key: ${{ runner.os }}-playwright-${{ env.PLAYWRIGHT_VERSION }}
 
     - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+      run: npx playwright install --with-deps chromium firefox
+      # Hapus "if: cache-hit != true" — selalu install untuk pastikan binary ada
 
     - name: Run Playwright tests
-      id: playwright_tests
       run: npx bddgen && npx playwright test
       continue-on-error: true
 
@@ -67,3 +68,28 @@ jobs:
         path: allure-history
 
     - name: Generate Allure Report
+      if: always()
+      run: |
+        npm install -g allure-commandline
+        allure generate allure-results --clean -o allure-history/${{ github.run_number }}
+        cp -r allure-history/${{ github.run_number }}/* allure-history/
+
+    - name: Notify if tests failed
+      if: failure()
+      run: echo "::error title=Test Failed::Ada test yang gagal, cek Allure Report!"
+
+    - name: Deploy report to Github Pages
+      if: always()
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: allure-history
+
+    - name: Warm up GitHub Pages
+      if: always()
+      run: |
+        echo "Waiting for pages to deploy..."
+        sleep 30
+        curl -s https://fadhil65.github.io/GPOS/ > /dev/null
+        echo "Pages warmed up! ✅"
