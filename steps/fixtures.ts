@@ -1,19 +1,25 @@
 import { test as base } from 'playwright-bdd';
-import { LoginPage } from '../src/pages/Login/LoginPage';
-import { posPages } from '../src/pages/POS/posPages';
+import { loginPage } from '../src/pages/Login/loginPage';
+import { posPage } from '../src/pages/POS/posPage';
+import { sideBarMenu } from '../src/pages/sideBarMenu';
 
 
 export const test = base.extend<{
-  loginPage: LoginPage;
-  posPages: posPages;
+  loginPage: loginPage;
+  posPage: posPage;
+  sideBarMenu: sideBarMenu;
 }>({
   /** Share satu LoginPage instance per test scenario */
   loginPage: async ({ page }, use) => {
-    await use(new LoginPage(page));
+    await use(new loginPage(page));
   },
 
-  /** Share satu posPages instance per test scenario */
-  posPages: async ({ page }, use) => {
-    await use(new posPages(page));
+  /** Share satu posPage instance per test scenario */
+  posPage: async ({ page }, use) => {
+    await use(new posPage(page));
   },
+  sideBarMenu: async ({ page }, use) => {
+    await use(new sideBarMenu(page));
+  },
+  
 });

@@ -1,15 +1,11 @@
 import { createBdd } from 'playwright-bdd';
 import { expect } from '@playwright/test';
 import { test } from '../../fixtures';
-import { LoginPage } from '../../../src/pages/Login/LoginPage';
 import { TIMEOUT } from '../../../src/utils/delay';
 
 const { Given, When, Then } = createBdd(test);
 
-/** Shared assertion: validasi pesan error/validasi login muncul */
-async function assertValidationMessage(loginPage: LoginPage): Promise<void> {
-  await expect(loginPage.errorMessage).toBeVisible({ timeout: 10000 });
-}
+
 
 // ── Given ────────────────────────────────────────────────────────────────────
 
