@@ -32,10 +32,19 @@ export class posPage extends BasePage {
   readonly tanggalLahirFormField: Locator;
   readonly tanggalLahirInputGroup: Locator;
   readonly closeFormCustomerBtn: Locator;
+  readonly valueDefaultDoctor: Locator;
+  readonly listDoctorSearchResult: Locator
+  readonly searchDoctorField: Locator;
+  readonly headerFormDoctor: Locator;
+  readonly nameDoctorFormField: Locator;
+  readonly simpanFormDoctorBtn: Locator;
+  readonly closeFormDoctorBtn: Locator;
+
 
   constructor(page: Page) {
     super(page);
     const addCustomerFrame = page.frameLocator('iframe[src*="customer/quick-create"]');
+    const addDoctorFrame = page.frameLocator('iframe[src*="doctor/create"]');
     
     this.pluInput = page.locator("[name='item_name']");
     this.popUpProductSearch = page.locator('td', { hasText: 'THROMBOPHOB GEL 20 GR' })
@@ -75,7 +84,21 @@ export class posPage extends BasePage {
   this.tanggalLahirFormField = addCustomerFrame.locator('input[name="birth_date"], input[name="birthdate"], .react-date-picker input').first();
   this.tanggalLahirInputGroup = addCustomerFrame.locator('.react-date-picker__inputGroup');
   this.closeFormCustomerBtn = page.getByText('×', { exact: true }).last();
+  this.valueDefaultDoctor = page.locator('[value="Regular"]');
+  this.listDoctorSearchResult = page
+  .locator('#table-doctor-modal tbody tr')
+  .first()
+  .locator('button, a.btn');
+  this.searchDoctorField = page
+      .locator('#table-doctor-modal_filter')
+      .locator('input[type="search"]');
+  this.headerFormDoctor = addDoctorFrame.locator('h6', { hasText: 'Tambah Data Dokter' });
+  this.nameDoctorFormField = addDoctorFrame.locator('[name="doctor_name"], input[name="doctor_name"], input[placeholder*="Nama"]').first();
+  this.simpanFormDoctorBtn = addDoctorFrame.locator('input[value="Simpan"], button:has-text("Simpan"), button:has-text("Tambahkan")');
+  this.closeFormDoctorBtn = page.getByText('×', { exact: true }).last();
+
 }
+
 async setCustomerBirthDate(tanggalLahir: string) {
     const [year, month, day] = tanggalLahir.split(/[/-]/);
     const normalizedDate = `${year}-${month}-${day}`;
