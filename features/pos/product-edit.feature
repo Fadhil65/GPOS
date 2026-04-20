@@ -1,6 +1,6 @@
 Feature: product edit
   
-  @pos @product-edit @positive @high
+  @pos @productedit @positive @high
   Scenario: TC-POS-005 - Edit Qty item yang sudah masuk list penjualan
     Given product detail sudah tampil di pos
     When User input "3" pada kolom Qty

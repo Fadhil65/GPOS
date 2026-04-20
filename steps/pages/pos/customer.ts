@@ -4,6 +4,7 @@
  import { TIMEOUT, delay } from '../../../src/utils/delay';
 
  const { Given, When, Then } = createBdd(test);
+ let saveCustomerResponsePromise: Promise<any> | null = null;
 
 When('Nilai default customer pada field Pelanggan adalah Regular',
   async ({ posPage }) => {
@@ -51,7 +52,13 @@ Then('Popup form tambah pelanggan tampil',
     await expect(posPage.headerFormCustomer).toBeVisible
   });
 When('User klik button Simpan',
-    async ({ posPage }) => {
+    async ({ page, posPage }) => {
+    saveCustomerResponsePromise = page.waitForResponse(
+      res =>
+        res.url().includes('/api/v1/customer/quick-create') &&
+        res.request().method() === 'POST',
+      { timeout: TIMEOUT.long }
+    );
     await posPage.simpanFormCustomerBtn.click({timeout: TIMEOUT.short});
 });
 Then('Muncul validasi customer name',
@@ -79,3 +86,30 @@ Then('Muncul validasi tanggal lahir',
     async ({ posPage }) => {
     await expect(posPage.validationTipePelangganTanggalLahir).toBeVisible
   });
+When('User input tanggal lahir {string}',
+    async ({ posPage }, tanggalLahir: string) => {
+  await posPage.setCustomerBirthDate(tanggalLahir);
+});
+Then('Data pelanggan baru berhasil tersimpan',
+    async () => {
+    const response = await saveCustomerResponsePromise;
+
+    const requestBody = JSON.parse(response.request().postData() || '{}');
+
+    expect(response.status()).toBe(200);
+    expect(requestBody.customer_name).toBe('Test');
+    expect(requestBody.birth_date).toContain('1999');
+    }); 
+Then('User klik icon X pada form tambah pelanggan',
+    async ({ posPage }) => {
+    await posPage.closeFormCustomerBtn.click({
+      timeout: TIMEOUT.short,
+    }); 
+    });
+Then('Form tertutup dan data tidak tersimpan',
+    async ({ posPage }) => {
+    await expect(posPage.addCustomerBtn).toBeVisible({
+      timeout: TIMEOUT.default,
+    });
+    });
+

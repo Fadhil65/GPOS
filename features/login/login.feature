@@ -7,14 +7,14 @@ Feature: Login gpos
     Given User berada di halaman login GposLite
 
   @positive @login @regression
-  Scenario: Login berhasil sebagai testqa2
+  Scenario: TC-LGN-001 - Login berhasil sebagai testqa2
     When User input username "test.qa2"
     Then User input password "GposLite*"
     Then User klik button login
     Then User berhasil masuk ke dashboard GPOSLite
 
   @negative @login @regression
-  Scenario: Login gagal - tidak input password
+  Scenario: TC-LGN-002 - Login tidak input password
     When User input username "test.qa2"
     Then User klik button login
     Then User melihat error message

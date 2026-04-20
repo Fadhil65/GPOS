@@ -29,6 +29,9 @@ export class posPage extends BasePage {
   readonly tipePelangganFormField: Locator;
   readonly regulerTipePelangganOption: Locator;
   readonly deleteTglLahirFormCustomerBtn: Locator;
+  readonly tanggalLahirFormField: Locator;
+  readonly tanggalLahirInputGroup: Locator;
+  readonly closeFormCustomerBtn: Locator;
 
   constructor(page: Page) {
     super(page);
@@ -69,8 +72,32 @@ export class posPage extends BasePage {
   this.tipePelangganFormField = addCustomerFrame.locator('.css-1mhkxtv-placeholder', { hasText: 'Pilih tipe pelanggan' });
   this.regulerTipePelangganOption = addCustomerFrame.locator('#react-select-2-option-0');
   this.deleteTglLahirFormCustomerBtn = addCustomerFrame.locator('.react-date-picker__clear-button__icon');
-
-
-  
+  this.tanggalLahirFormField = addCustomerFrame.locator('input[name="birth_date"], input[name="birthdate"], .react-date-picker input').first();
+  this.tanggalLahirInputGroup = addCustomerFrame.locator('.react-date-picker__inputGroup');
+  this.closeFormCustomerBtn = page.getByText('×', { exact: true }).last();
 }
+async setCustomerBirthDate(tanggalLahir: string) {
+    const [year, month, day] = tanggalLahir.split(/[/-]/);
+    const normalizedDate = `${year}-${month}-${day}`;
+
+    await this.tanggalLahirFormField.evaluate((element, value) => {
+      const input = element as HTMLInputElement;
+      input.value = value;
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+    }, normalizedDate);
+
+    const visibleDateInputs = this.tanggalLahirInputGroup.locator('input:not([type="date"])');
+    const visibleDateInputCount = await visibleDateInputs.count();
+
+    if (visibleDateInputCount >= 3) {
+      await visibleDateInputs.nth(0).fill(year);
+      await visibleDateInputs.nth(1).fill(month);
+      await visibleDateInputs.nth(2).fill(day);
+    }
+
+    await this.tanggalLahirFormField.blur();
+    await this.page.keyboard.press('Escape').catch(() => undefined);
+    await this.page.locator('body').click({ position: { x: 20, y: 20 } }).catch(() => undefined);
+  }
 }

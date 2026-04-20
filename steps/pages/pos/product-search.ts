@@ -2,11 +2,12 @@
  import { expect } from '@playwright/test';
  import { test } from '../../fixtures';
  import { TIMEOUT, delay } from '../../../src/utils/delay';
+import { posPage } from '../../../src/pages/POS/posPage';
 
  const { Given, When, Then } = createBdd(test);
 
 
-Given('User sudah login dan berada di halaman POS', async ({ loginPage, sideBarMenu }) => {
+Given('User sudah login dan berada di halaman POS', async ({ loginPage, sideBarMenu, posPage }) => {
   await loginPage.open();
     await loginPage.usernameInput.waitFor({
       state: 'visible',
@@ -25,7 +26,9 @@ Given('User sudah login dan berada di halaman POS', async ({ loginPage, sideBarM
   });
   await sideBarMenu.transaksiPenjualan.click({});
   await sideBarMenu.penjualanBukaPos.click({});
-  await delay.default();
+  await expect(posPage.addCustomerBtn).toBeVisible({
+    timeout: TIMEOUT.default,
+  });
 });
 When('User input keyword 3 char {string} di field PLU Barcode',
   async ({ posPage }, plubarcodeInput: string) => {

@@ -27,7 +27,9 @@ Given('product detail sudah tampil di pos',
   });
   await sideBarMenu.transaksiPenjualan.click({});
   await sideBarMenu.penjualanBukaPos.click({});
-  await delay.default();
+  await expect(posPage.addCustomerBtn).toBeVisible({
+    timeout: TIMEOUT.default,
+  });
   await posPage.pluInput.fill('thro');
   await posPage.pluInput.press('Enter');
   await expect(posPage.popUpProductSearch).toBeVisible({

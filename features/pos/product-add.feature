@@ -2,7 +2,7 @@ Feature: product add
 
 
 
-@pos @product-add @positive @high
+@pos @productadd2 @positive @high
   Scenario: TC-POS-003 - Tambah product dari hasil pencarian manual
   TC-POS-004 - Auto focus pada field Qty di popup atribut produk
 
