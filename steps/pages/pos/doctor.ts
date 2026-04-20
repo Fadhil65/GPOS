@@ -26,6 +26,14 @@ Then('list data dokter tampil sesuai keyword', async ({ posPage }) => {
     timeout: TIMEOUT.short,
   });
 });
+Then('User klik icon add pada salah satu doctor', async ({ posPage }) => {
+  await posPage.addListDoctorBtn.click({timeout: TIMEOUT.short });
+});
+Then('Doctor terpilih dan field doctor terisi', async ({ posPage }) => {
+  await expect(posPage.valueDiniDoctor).toBeVisible({
+    timeout: TIMEOUT.default,
+  });
+});
 
 When('User klik icon tambah pada field dokter', async ({ posPage }) => {
   await posPage.addDoctorBtn.click();

@@ -1,6 +1,7 @@
 
 import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from '../BasePage';
+import { TIMEOUT } from '../../utils/delay';
 
 
 export class posPage extends BasePage {
@@ -18,7 +19,7 @@ export class posPage extends BasePage {
   readonly searchCustomerField: Locator;
   readonly listCustomerSearchResult: Locator;
   readonly addListCustomerBtn: Locator;
-  readonly valueFadhilCustomer: Locator;
+  readonly valueBudiCustomer: Locator;
   readonly addCustomerBtn: Locator;
   readonly addDoctorBtn: Locator;
   readonly headerFormCustomer: Locator;
@@ -39,6 +40,8 @@ export class posPage extends BasePage {
   readonly nameDoctorFormField: Locator;
   readonly simpanFormDoctorBtn: Locator;
   readonly closeFormDoctorBtn: Locator;
+  readonly addListDoctorBtn: Locator;
+  readonly valueDiniDoctor: Locator;
 
 
   constructor(page: Page) {
@@ -67,12 +70,12 @@ export class posPage extends BasePage {
   this.searchCustomerField = page
   .locator('#table-customer-modal_filter')
   .locator('input[type="search"]')
-  this.listCustomerSearchResult = page.getByText('Fadh');
+  this.listCustomerSearchResult = page.getByText('Budi').first();
   this.addListCustomerBtn = page
-  .locator('tr')
-  .filter({ hasText: 'Fadh' })
-  .locator('a.btn-insert')
-  this.valueFadhilCustomer = page.locator('[value="Fadhil"]');
+  .locator('#table-customer-modal tbody tr')
+  .first()
+  .locator('a.btn, button');
+  this.valueBudiCustomer = page.locator('[value="Budi"]');
   this.headerFormCustomer = page.locator('h6', { hasText: 'Tambah Pelanggan' });
   this.simpanFormCustomerBtn = addCustomerFrame.locator('input[value="Simpan"]');
   this.validationFormNamaCustomer = addCustomerFrame.locator('.disabled', { hasText: "should have required property 'customer_name'" });
@@ -88,10 +91,14 @@ export class posPage extends BasePage {
   this.listDoctorSearchResult = page
   .locator('#table-doctor-modal tbody tr')
   .first()
+  this.addListDoctorBtn = page
+  .locator('#table-doctor-modal tbody tr')
+  .first()
   .locator('button, a.btn');
   this.searchDoctorField = page
       .locator('#table-doctor-modal_filter')
       .locator('input[type="search"]');
+  this.valueDiniDoctor = page.locator('[value="Dini"]');
   this.headerFormDoctor = addDoctorFrame.locator('h6', { hasText: 'Tambah Data Dokter' });
   this.nameDoctorFormField = addDoctorFrame.locator('[name="doctor_name"], input[name="doctor_name"], input[placeholder*="Nama"]').first();
   this.simpanFormDoctorBtn = addDoctorFrame.locator('input[value="Simpan"], button:has-text("Simpan"), button:has-text("Tambahkan")');
@@ -101,26 +108,20 @@ export class posPage extends BasePage {
 
 async setCustomerBirthDate(tanggalLahir: string) {
     const [year, month, day] = tanggalLahir.split(/[/-]/);
-    const normalizedDate = `${year}-${month}-${day}`;
-
-    await this.tanggalLahirFormField.evaluate((element, value) => {
-      const input = element as HTMLInputElement;
-      input.value = value;
-      input.dispatchEvent(new Event('input', { bubbles: true }));
-      input.dispatchEvent(new Event('change', { bubbles: true }));
-    }, normalizedDate);
-
-    const visibleDateInputs = this.tanggalLahirInputGroup.locator('input:not([type="date"])');
+    const visibleDateInputs = this.tanggalLahirInputGroup.getByRole('spinbutton');
     const visibleDateInputCount = await visibleDateInputs.count();
 
     if (visibleDateInputCount >= 3) {
-      await visibleDateInputs.nth(0).fill(year);
-      await visibleDateInputs.nth(1).fill(month);
-      await visibleDateInputs.nth(2).fill(day);
+      const inputOrder = [year, month, day];
+
+      for (let index = 0; index < 3; index++) {
+        await visibleDateInputs.nth(index).click({ timeout: TIMEOUT.short });
+        await visibleDateInputs.nth(index).press('Control+A');
+        await visibleDateInputs.nth(index).fill(inputOrder[index], { timeout: TIMEOUT.short });
+      }
     }
 
-    await this.tanggalLahirFormField.blur();
-    await this.page.keyboard.press('Escape').catch(() => undefined);
-    await this.page.locator('body').click({ position: { x: 20, y: 20 } }).catch(() => undefined);
+    const calendarToggleButton = this.tanggalLahirInputGroup.locator('xpath=..').locator('button').last();
+    await calendarToggleButton.click({ timeout: TIMEOUT.default });
   }
 }

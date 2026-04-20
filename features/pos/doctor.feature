@@ -28,3 +28,11 @@ Background:
     When User input "Test Doctor" di field nama dokter
     And User klik X pada form tambah dokter
     Then Form tambah dokter tertutup dan data tidak tersimpan
+  
+    @pos @doctor5 @positive @high
+    Scenario: TC-POS-018 - Pilih doctor dari popup list pelanggan
+    When User klik icon search pada field dokter
+    When User input keyword "Dini" minimal 4 karakter di field dokter
+    Then list data dokter tampil sesuai keyword
+    Then User klik icon add pada salah satu doctor
+    Then Doctor terpilih dan field doctor terisi

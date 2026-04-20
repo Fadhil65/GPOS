@@ -7,5 +7,5 @@ test-results/
 *.d.ts
 !playwright.config.js
 
-# Environment — jangan commit, pakai .env.example sebagai template
+# Environment - jangan commit file .env lokal
 .env

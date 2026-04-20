@@ -18,7 +18,7 @@ Background:
   @pos @customer-search @positive @high
   Scenario: TC-POS-008 - Cari pelanggan dengan keyword minimal 4 karakter
     When User klik icon search pada field customer
-    When User input keyword "fadh" minimal 4 karakter di field pelanggan
+    When User input keyword "Budi" minimal 4 karakter di field pelanggan
     Then list data pelanggan tampil sesuai keyword
 
   # ─────────────────────────────────────────
@@ -28,7 +28,7 @@ Background:
   @pos @customer-select @positive @high
   Scenario: TC-POS-009 - Pilih customer dari popup list pelanggan
     When User klik icon search pada field customer
-    When User input keyword "fadh" minimal 4 karakter di field pelanggan
+    When User input keyword "Budi" minimal 4 karakter di field pelanggan
     Then list data pelanggan tampil sesuai keyword
     When User klik icon add pada salah satu pelanggan
     Then Customer terpilih dan field pelanggan terisi
@@ -60,7 +60,7 @@ Background:
   Scenario: TC-POS-012 - Tambah pelanggan via Tambah Cepat dengan field mandatory valid
     When User klik icon tambah pada field customer
     Then Popup form tambah pelanggan tampil
-    When User input "Test" di field nama
+    When User input "Budi" di field nama
     When User input tanggal lahir "1999/11/16"
     When User pilih reguler pada field tipe pelanggan
     When User klik button Simpan
