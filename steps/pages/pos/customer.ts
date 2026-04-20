@@ -35,10 +35,47 @@ Then('list data pelanggan tampil sesuai keyword',
 });
 When('User klik icon add pada salah satu pelanggan', 
     async ({ posPage }) => {
-    await posPage.addCustomerBtn.click();
+    await posPage.addListCustomerBtn.click();
 });
 Then('Customer terpilih dan field pelanggan terisi', 
     async ({ posPage }) => {
     await expect(posPage.valueFadhilCustomer).toBeVisible({
       timeout: TIMEOUT.short,})
     });
+When('User klik icon tambah pada field customer', 
+    async ({ posPage }) => {
+    await posPage.addCustomerBtn.click();
+});
+Then('Popup form tambah pelanggan tampil', 
+    async ({ posPage }) => {
+    await expect(posPage.headerFormCustomer).toBeVisible
+  });
+When('User klik button Simpan',
+    async ({ posPage }) => {
+    await posPage.simpanFormCustomerBtn.click({timeout: TIMEOUT.short});
+});
+Then('Muncul validasi customer name',
+    async ({ posPage }) => {
+    await expect(posPage.validationFormNamaCustomer).toBeVisible
+  });
+When('User input {string} di field nama',
+    async ({ posPage }, namaCustomerInput: string) => {
+    await posPage.fill(posPage.namaCustomerFormField, namaCustomerInput);
+});
+Then('Muncul validasi tipe pelanggan',
+    async ({ posPage }) => {
+    await expect(posPage.validationTipePelangganTanggalLahir).toBeVisible
+  });
+When('User pilih reguler pada field tipe pelanggan',
+    async ({ posPage }) => {
+    await posPage.tipePelangganFormField.click();
+    await posPage.regulerTipePelangganOption.click({timeout: TIMEOUT.short});
+});
+When('User clear tanggal lahir',
+    async ({ posPage }) => {
+    await posPage.deleteTglLahirFormCustomerBtn.click();
+});
+Then('Muncul validasi tanggal lahir',
+    async ({ posPage }) => {
+    await expect(posPage.validationTipePelangganTanggalLahir).toBeVisible
+  });

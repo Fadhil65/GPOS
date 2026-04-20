@@ -32,3 +32,23 @@ Background:
     Then list data pelanggan tampil sesuai keyword
     When User klik icon add pada salah satu pelanggan
     Then Customer terpilih dan field pelanggan terisi
+
+  @pos @customer-select @positive @high
+  Scenario: TC-POS-010 - Klik icon + pada field customer
+    When User klik icon tambah pada field customer
+    Then Popup form tambah pelanggan tampil
+
+  @pos @customer-select @negative @high
+  Scenario: TC-POS-011 - Validasi field mandatory pada form tambah pelanggan
+    When User klik icon tambah pada field customer
+    Then Popup form tambah pelanggan tampil
+    When User klik button Simpan
+    Then Muncul validasi customer name
+    When User input "Test" di field nama
+    When User klik button Simpan
+    Then Muncul validasi tipe pelanggan
+    When User pilih reguler pada field tipe pelanggan
+    When User clear tanggal lahir
+    When User klik button Simpan
+    Then Muncul validasi tanggal lahir
+    
