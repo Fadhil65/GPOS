@@ -1,0 +1,11 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - heading "Oops! Halaman Gagal Dimuat" [level=5] [ref=e5]
+  - paragraph [ref=e6]: "Error ID : 1776661493445"
+  - paragraph [ref=e7]:
+    - text: Kami mohon maaf, Silakan muat ulang halaman ini atau tekan F5.
+    - text: Jika masalah berlanjut, hubungi kami.
+  - button "Muat Ulang" [ref=e8] [cursor=pointer]
+```
