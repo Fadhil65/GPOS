@@ -1,0 +1,29 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - heading "Selamat Datang!" [level=2] [ref=e8]
+      - heading "Masuk Untuk Melanjutkan!" [level=3] [ref=e9]
+    - generic [ref=e10]:
+      - textbox "Masukan email atau username" [ref=e12]: test.qa2
+      - textbox "Masukan kata kunci" [ref=e14]: GposLite*
+      - button "Masuk" [active] [ref=e15] [cursor=pointer]
+      - button "Hapus Sesi" [ref=e16] [cursor=pointer]: Hapus Sesi
+      - paragraph [ref=e17]:
+        - text: Belum Punya Akun?
+        - link "Daftar Sekarang" [ref=e18] [cursor=pointer]:
+          - /url: https://web.gpos.id/register
+  - generic [ref=e20]:
+    - link "GPOS Lite" [ref=e21] [cursor=pointer]:
+      - /url: ./
+      - heading "GPOS Lite" [level=2] [ref=e22]:
+        - img "GPOS Lite" [ref=e23]
+    - paragraph [ref=e24]: Kami dapat memberikan beragam keuntungan dalam perjalanan pertumbuhan bisnis Anda.
+    - paragraph [ref=e25]: Sistem apotek GPOS Lite hadir dengan rancangan teknologi terkini untuk meningkatkan performa apotek. Software apotek milik GPOS Lite juga sangat mudah digunakan sehingga dapat mempermudah bisnis Anda khususnya dalam melakukan ekspansi secara online. Sistem apotek kami telah terintegrasi dengan partner-partner terbaik, mulai dari partner e-commerce, partner PBF, hingga partner PPOB.
+    - paragraph [ref=e26]:
+      - link "Pelajari Lebih Lanjut" [ref=e27] [cursor=pointer]:
+        - /url: https://web.gpos.id
+    - paragraph [ref=e28]: © Hak Cipta 2016-2026. Dilindungi Seluruh Hak Cipta.
+```
