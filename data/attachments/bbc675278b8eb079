@@ -1,0 +1,567 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - generic [ref=e7]:
+            - link " Home" [ref=e8] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=e9]: 
+              - text: Home
+            - text: "|"
+          - text: GPOS MINI 3 PROD DEP - QA Testing
+          - generic [ref=e10]:
+            - generic [ref=e11]: 
+            - text: ONLINE
+        - generic [ref=e12]: CASH - CASH
+        - generic [ref=e13]:
+          - generic [ref=e14]: Wednesday, 06 May 2026 - 3:30:01 PM
+          - generic [ref=e15]:
+            - text: "|"
+            - link " Help" [ref=e16] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e17]: 
+              - text: Help
+      - generic [ref=e18]:
+        - generic [ref=e21]:
+          - generic [ref=e24]:
+            - generic [ref=e26]:
+              - generic [ref=e27]: Customer [CTRL+ALT+C]
+              - generic [ref=e28]:
+                - textbox "Enter Customer" [ref=e29]: Regular
+                - generic [ref=e30]:
+                  - button "" [ref=e31] [cursor=pointer]:
+                    - generic [ref=e32]: 
+                  - link "" [active] [ref=e33] [cursor=pointer]:
+                    - /url: /customer/quick-create/?iframe=pos&input=customer_id
+                    - generic [ref=e34]: 
+            - generic [ref=e36]:
+              - generic [ref=e37]: Doctor [CTRL+ALT+D]
+              - generic [ref=e38]:
+                - textbox "Enter Doctor" [ref=e39]: Internal
+                - generic [ref=e40]:
+                  - button "" [ref=e41] [cursor=pointer]:
+                    - generic [ref=e42]: 
+                  - link "" [ref=e43] [cursor=pointer]:
+                    - /url: /doctor/create/?iframe=pos&input=doctor_id
+                    - generic [ref=e44]: 
+          - generic [ref=e47]:
+            - generic [ref=e48]:
+              - text: Total Item
+              - text: 0 / 0
+            - generic [ref=e49]: "0"
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - generic [ref=e54]:
+              - generic [ref=e56]:
+                - generic [ref=e57]: PLU / Barcode
+                - generic [ref=e58]:
+                  - textbox "Enter PLU / Barcode [ALT+N]" [ref=e59]
+                  - generic [ref=e60]:
+                    - button "" [ref=e61] [cursor=pointer]:
+                      - generic [ref=e62]: 
+                    - link "" [ref=e63] [cursor=pointer]:
+                      - /url: /prescription/?iframe=pos&input=item_name
+                      - generic [ref=e64]: 
+              - generic [ref=e66]:
+                - generic [ref=e67]: Tuslah
+                - spinbutton [ref=e68]: "0"
+              - generic [ref=e70]:
+                - generic [ref=e71]: Qty
+                - spinbutton [ref=e72]: "0"
+              - generic [ref=e74]:
+                - generic [ref=e75]: Unit
+                - combobox [ref=e76]:
+                  - option "AMP" [selected]
+                  - option "BAG"
+                  - option "BAL"
+                  - option "BANDED"
+                  - option "BKS"
+                  - option "BOX"
+                  - option "BTL"
+                  - option "CAP"
+                  - option "CPLT"
+                  - option "CRM"
+                  - option "GR"
+                  - option "JAM"
+                  - option "KAPLET"
+                  - option "KLG"
+                  - option "MDS"
+                  - option "MG"
+                  - option "OVL"
+                  - option "PAK"
+                  - option "PCS"
+                  - option "POT"
+                  - option "SCHT"
+                  - option "SLP"
+                  - option "SOF"
+                  - option "STR"
+                  - option "SUP"
+                  - option "TAB"
+                  - option "TUB"
+                  - option "VIAL"
+                  - option "ML"
+                  - option "FEN"
+                  - option "LIANG"
+                  - option "Unit Testo"
+                  - option "tube"
+                  - option "KG"
+                  - option "DUS"
+                  - option "CTN"
+                  - option "MTR"
+              - generic [ref=e78]:
+                - generic [ref=e79]: Choose Price
+                - combobox [disabled] [ref=e80]:
+                  - option "Harga Jual 1" [selected]
+                  - option "Harga Jual 2"
+                  - option "Harga Jual 3"
+              - generic [ref=e82]:
+                - generic [ref=e83]: Price
+                - spinbutton [ref=e84]: "0"
+              - generic [ref=e86]:
+                - generic [ref=e87]: Discount
+                - textbox "Enter Discount" [ref=e88]: "0"
+              - generic [ref=e90]:
+                - generic [ref=e91]: Sub Total
+                - generic [ref=e92]:
+                  - spinbutton [ref=e93]: "0"
+                  - generic [ref=e94]:
+                    - button "" [ref=e95] [cursor=pointer]:
+                      - generic [ref=e96]: 
+                    - button "" [ref=e97] [cursor=pointer]:
+                      - generic [ref=e98]: 
+            - img [ref=e102] [cursor=pointer]
+          - generic [ref=e110]:
+            - table [ref=e114]:
+              - rowgroup [ref=e115]:
+                - row "[CTRL+ALT+L] Item Name Qty Unit Tuslah Price Discount Sub Total" [ref=e116]:
+                  - columnheader "[CTRL+ALT+L]" [ref=e117]
+                  - columnheader "Item Name" [ref=e118]
+                  - columnheader "Qty" [ref=e119]
+                  - columnheader "Unit" [ref=e120]
+                  - columnheader "Tuslah" [ref=e121]
+                  - columnheader "Price" [ref=e122]
+                  - columnheader "Discount" [ref=e123]
+                  - columnheader "Sub Total" [ref=e124]
+              - rowgroup
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - heading "Tebus Murah Tersedia!" [level=2] [ref=e127]
+                - img [ref=e129] [cursor=pointer]
+              - paragraph [ref=e132]: Ayo tawarkan produk pilihan dengan harga hemat ke pelanggan
+              - textbox "Cari produk..." [ref=e133]
+              - generic [ref=e134]:
+                - generic [ref=e135]:
+                  - strong [ref=e137]: HERBAKOF STRONG MINT 100 ML
+                  - generic [ref=e138]:
+                    - generic [ref=e139]:
+                      - generic [ref=e140]: "HARGA: Rp 7.000"
+                      - generic [ref=e141]: "STOK: -7 BTL"
+                    - button "+" [ref=e142] [cursor=pointer]
+                - generic [ref=e143]:
+                  - strong [ref=e145]: HERBAKOF SYR 100 ML
+                  - generic [ref=e146]:
+                    - generic [ref=e147]:
+                      - generic [ref=e148]: "HARGA: Rp 19.000"
+                      - generic [ref=e149]: "STOK: -8 BTL"
+                    - button "+" [ref=e150] [cursor=pointer]
+                - generic [ref=e151]:
+                  - strong [ref=e153]: OXYVIT C+ BOX 5 STR @ 6 KAPLET
+                  - generic [ref=e154]:
+                    - generic [ref=e155]:
+                      - generic [ref=e156]: "HARGA: Rp 51.000"
+                      - generic [ref=e157]: "STOK: 114 BOX"
+                    - button "+" [ref=e158] [cursor=pointer]
+                - generic [ref=e159]:
+                  - strong [ref=e161]: OXYVIT D3 1000 IU BTL 60 CAP
+                  - generic [ref=e162]:
+                    - generic [ref=e163]:
+                      - generic [ref=e164]: "HARGA: Rp 5.956.000"
+                      - generic [ref=e165]: "STOK: 91 BTL"
+                    - button "+" [ref=e166] [cursor=pointer]
+                - generic [ref=e167]:
+                  - strong [ref=e169]: STIMUNO FORTE BOX 1 STR @ 10 CAP
+                  - generic [ref=e170]:
+                    - generic [ref=e171]:
+                      - generic [ref=e172]: "HARGA: Rp 22.000"
+                      - generic [ref=e173]: "STOK: 9720 BOX"
+                    - button "+" [ref=e174] [cursor=pointer]
+                - generic [ref=e175]:
+                  - strong [ref=e177]: STIMUNO SYR ORIGINAL FLAVOR 100 ML
+                  - generic [ref=e178]:
+                    - generic [ref=e179]:
+                      - generic [ref=e180]: "HARGA: Rp 32.000"
+                      - generic [ref=e181]: "STOK: 1 BTL"
+                    - button "+" [ref=e182] [cursor=pointer]
+                - generic [ref=e183]:
+                  - strong [ref=e185]: STIMUNO SYR GRAPE FLAVOR 100 ML
+                  - generic [ref=e186]:
+                    - generic [ref=e187]:
+                      - generic [ref=e188]: "HARGA: Rp 27.000"
+                      - generic [ref=e189]: "STOK: -1 BTL"
+                    - button "+" [ref=e190] [cursor=pointer]
+                - generic [ref=e191]:
+                  - strong [ref=e193]: STIMUNO ORANGE BERRY SYR 100 ML
+                  - generic [ref=e194]:
+                    - generic [ref=e195]:
+                      - generic [ref=e196]: "HARGA: Rp 22.000"
+                      - generic [ref=e197]: "STOK: 0 BTL"
+                    - button "+" [ref=e198] [cursor=pointer]
+                - generic [ref=e199]:
+                  - strong [ref=e201]: OXYVIT BOX 5 STR @ 6 CAP
+                  - generic [ref=e202]:
+                    - generic [ref=e203]:
+                      - generic [ref=e204]: "HARGA: Rp 54.000"
+                      - generic [ref=e205]: "STOK: 89 BOX"
+                    - button "+" [ref=e206] [cursor=pointer]
+                - generic [ref=e207]:
+                  - strong [ref=e209]: LYTACUR JERUK 100 ML
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - generic [ref=e212]: "HARGA: Rp 24.500"
+                      - generic [ref=e213]: "STOK: 0 BTL"
+                    - button "+" [ref=e214] [cursor=pointer]
+                - generic [ref=e215]:
+                  - strong [ref=e217]: STIMUNO FORTE 1 BTL @ 30 TAB
+                  - generic [ref=e218]:
+                    - generic [ref=e219]:
+                      - generic [ref=e220]: "HARGA: Rp 0"
+                      - generic [ref=e221]: "STOK: 92 BTL"
+                    - button "+" [disabled] [ref=e222] [cursor=pointer]
+          - generic [ref=e223]:
+            - generic [ref=e224]:
+              - generic [ref=e226]:
+                - generic [ref=e227]: Description
+                - textbox "Enter Description" [ref=e228]
+              - generic [ref=e230]:
+                - generic [ref=e231]: Invoice No.
+                - textbox "Enter Invoice No." [ref=e232]
+              - generic [ref=e234]:
+                - generic [ref=e235]: Status
+                - combobox [ref=e236]:
+                  - option "Pending"
+                  - option "Process"
+                  - option "Billed" [selected]
+              - generic [ref=e238]:
+                - generic [ref=e239]: Auto Add
+                - combobox [ref=e240]:
+                  - option "No" [selected]
+                  - option "Yes"
+              - generic [ref=e242]:
+                - button " Clear [CTRL+ALT+W]" [ref=e244] [cursor=pointer]:
+                  - generic [ref=e245]: 
+                  - text: Clear [CTRL+ALT+W]
+                - button " Search Trans [CTRL+ALT+S]" [ref=e247] [cursor=pointer]:
+                  - generic [ref=e248]: 
+                  - text: Search Trans [CTRL+ALT+S]
+                - button " Payment Detail [CTRL+ALT+P]" [disabled] [ref=e250] [cursor=pointer]:
+                  - generic [ref=e251]: 
+                  - text: Payment Detail [CTRL+ALT+P]
+            - generic [ref=e252]:
+              - generic [ref=e254]:
+                - generic [ref=e255]: Discount (Rp) [CTRL+ALT+A]
+                - textbox "0" [ref=e256]
+              - generic [ref=e258]:
+                - generic [ref=e259]: Charge CC [CTRL+ALT+B]
+                - textbox "0" [ref=e260]
+              - generic [ref=e262]:
+                - generic [ref=e263]: Payment [CTRL+ALT+G]
+                - textbox "0" [ref=e264]
+              - generic [ref=e266]:
+                - generic [ref=e267]: Change
+                - textbox "0" [ref=e268]
+                - button "" [ref=e269] [cursor=pointer]:
+                  - generic [ref=e270]: 
+              - button " Save Transaction [F9]" [ref=e272] [cursor=pointer]:
+                - generic [ref=e273]: 
+                - text: Save Transaction [F9]
+    - generic [ref=e276]:
+      - paragraph [ref=e277]: Copyright 2016-2026 © All Rights Reserved. GPOS Lite
+      - paragraph [ref=e278]:
+        - text: "Presented by:"
+        - link "PT. Anugrah Argon Medica" [ref=e279] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+  - generic [ref=e280]:
+    - iframe [ref=e283]:
+      - generic [ref=f3e5]:
+        - generic [ref=f3e6]:
+          - list [ref=f3e7]:
+            - listitem [ref=f3e8]:
+              - button " Pilihan" [ref=f3e9] [cursor=pointer]:
+                - generic [ref=f3e10]: 
+                - text: Pilihan
+              - text:  
+              - link " Impor Pelanggan" [ref=f3e11] [cursor=pointer]:
+                - /url: /customer/import-customer
+                - generic [ref=f3e12]: 
+                - text: Impor Pelanggan
+              - button " Ekspor Pelanggan" [ref=f3e13] [cursor=pointer]:
+                - generic [ref=f3e14]: 
+                - text: Ekspor Pelanggan
+          - heading "Pelanggan" [level=6] [ref=f3e15]
+        - generic [ref=f3e19]:
+          - generic [ref=f3e21]:
+            - combobox [ref=f3e22]
+            - combobox "10" [ref=f3e25] [cursor=pointer]:
+              - textbox "10" [ref=f3e26]
+            - text: items/page
+          - generic [ref=f3e27]:
+            - button "Copy" [ref=f3e28] [cursor=pointer]
+            - button "Excel" [ref=f3e29] [cursor=pointer]
+            - button "CSV" [ref=f3e30] [cursor=pointer]
+          - searchbox [ref=f3e33]
+          - grid [ref=f3e34]:
+            - rowgroup [ref=f3e35]:
+              - 'row "Id: activate to sort column ascending Tipe Pelanggan: activate to sort column ascending Kode Pelanggan: activate to sort column ascending Nama: activate to sort column ascending Saldo: activate to sort column ascending Jenis Kelamin: activate to sort column ascending Tanggal Lahir: activate to sort column ascending Alamat: activate to sort column ascending Aksi" [ref=f3e36]':
+                - columnheader [ref=f3e37]
+                - 'columnheader "Id: activate to sort column ascending" [ref=f3e38] [cursor=pointer]': Id
+                - 'columnheader "Tipe Pelanggan: activate to sort column ascending" [ref=f3e39] [cursor=pointer]': Tipe Pelanggan
+                - 'columnheader "Kode Pelanggan: activate to sort column ascending" [ref=f3e40] [cursor=pointer]': Kode Pelanggan
+                - 'columnheader "Nama: activate to sort column ascending" [ref=f3e41] [cursor=pointer]': Nama
+                - 'columnheader "Saldo: activate to sort column ascending" [ref=f3e42] [cursor=pointer]': Saldo
+                - 'columnheader "Jenis Kelamin: activate to sort column ascending" [ref=f3e43] [cursor=pointer]': Jenis Kelamin
+                - 'columnheader "Tanggal Lahir: activate to sort column ascending" [ref=f3e44] [cursor=pointer]': Tanggal Lahir
+                - 'columnheader "Alamat: activate to sort column ascending" [ref=f3e45] [cursor=pointer]': Alamat
+                - columnheader "Aksi" [ref=f3e46]
+            - rowgroup [ref=f3e47]:
+              - row "102612 01 - Regular 2026/05/102329 Budi Rp. 0 Laki-laki 16 November 1999   " [ref=f3e48]:
+                - gridcell [ref=f3e49]:
+                  - checkbox [ref=f3e51] [cursor=pointer]
+                - gridcell "102612" [ref=f3e52]
+                - gridcell "01 - Regular" [ref=f3e53]
+                - gridcell "2026/05/102329" [ref=f3e54]
+                - gridcell "Budi" [ref=f3e55]
+                - gridcell "Rp. 0" [ref=f3e56]
+                - gridcell "Laki-laki" [ref=f3e57]
+                - gridcell "16 November 1999" [ref=f3e58]
+                - gridcell [ref=f3e59]
+                - gridcell "  " [ref=f3e60]:
+                  - generic [ref=f3e62]:
+                    - link "" [ref=f3e63] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e64]: 
+                    - link "" [ref=f3e65] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e66]: 
+                    - link "" [ref=f3e67] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e68]: 
+              - row "102328 01 - Regular 2026/05/00001 Test Rp. 0 Laki-laki Invalid date   " [ref=f3e69]:
+                - gridcell [ref=f3e70]:
+                  - checkbox [ref=f3e72] [cursor=pointer]
+                - gridcell "102328" [ref=f3e73]
+                - gridcell "01 - Regular" [ref=f3e74]
+                - gridcell "2026/05/00001" [ref=f3e75]
+                - gridcell "Test" [ref=f3e76]
+                - gridcell "Rp. 0" [ref=f3e77]
+                - gridcell "Laki-laki" [ref=f3e78]
+                - gridcell "Invalid date" [ref=f3e79]
+                - gridcell [ref=f3e80]
+                - gridcell "  " [ref=f3e81]:
+                  - generic [ref=f3e83]:
+                    - link "" [ref=f3e84] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e85]: 
+                    - link "" [ref=f3e86] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e87]: 
+                    - link "" [ref=f3e88] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e89]: 
+              - row "102135 003 - Resep 2026/04/00001 Marchel TES Rp. 0 Laki-laki 29 April 2026   " [ref=f3e90]:
+                - gridcell [ref=f3e91]:
+                  - checkbox [ref=f3e93] [cursor=pointer]
+                - gridcell "102135" [ref=f3e94]
+                - gridcell "003 - Resep" [ref=f3e95]
+                - gridcell "2026/04/00001" [ref=f3e96]
+                - gridcell "Marchel TES" [ref=f3e97]
+                - gridcell "Rp. 0" [ref=f3e98]
+                - gridcell "Laki-laki" [ref=f3e99]
+                - gridcell "29 April 2026" [ref=f3e100]
+                - gridcell [ref=f3e101]
+                - gridcell "  " [ref=f3e102]:
+                  - generic [ref=f3e104]:
+                    - link "" [ref=f3e105] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e106]: 
+                    - link "" [ref=f3e107] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e108]: 
+                    - link "" [ref=f3e109] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e110]: 
+              - row "102127 01 - Regular 2026/04/00001 Test Rp. 0 Laki-laki Invalid date   " [ref=f3e111]:
+                - gridcell [ref=f3e112]:
+                  - checkbox [ref=f3e114] [cursor=pointer]
+                - gridcell "102127" [ref=f3e115]
+                - gridcell "01 - Regular" [ref=f3e116]
+                - gridcell "2026/04/00001" [ref=f3e117]
+                - gridcell "Test" [ref=f3e118]
+                - gridcell "Rp. 0" [ref=f3e119]
+                - gridcell "Laki-laki" [ref=f3e120]
+                - gridcell "Invalid date" [ref=f3e121]
+                - gridcell [ref=f3e122]
+                - gridcell "  " [ref=f3e123]:
+                  - generic [ref=f3e125]:
+                    - link "" [ref=f3e126] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e127]: 
+                    - link "" [ref=f3e128] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e129]: 
+                    - link "" [ref=f3e130] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e131]: 
+              - row "102126 01 - Regular 2026/04/00001 Budi Rp. 0 Laki-laki 16 November 1999   " [ref=f3e132]:
+                - gridcell [ref=f3e133]:
+                  - checkbox [ref=f3e135] [cursor=pointer]
+                - gridcell "102126" [ref=f3e136]
+                - gridcell "01 - Regular" [ref=f3e137]
+                - gridcell "2026/04/00001" [ref=f3e138]
+                - gridcell "Budi" [ref=f3e139]
+                - gridcell "Rp. 0" [ref=f3e140]
+                - gridcell "Laki-laki" [ref=f3e141]
+                - gridcell "16 November 1999" [ref=f3e142]
+                - gridcell [ref=f3e143]
+                - gridcell "  " [ref=f3e144]:
+                  - generic [ref=f3e146]:
+                    - link "" [ref=f3e147] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e148]: 
+                    - link "" [ref=f3e149] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e150]: 
+                    - link "" [ref=f3e151] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e152]: 
+              - row "102015 01 - Regular 2026/04/00001 Test Rp. 0 Laki-laki Invalid date   " [ref=f3e153]:
+                - gridcell [ref=f3e154]:
+                  - checkbox [ref=f3e156] [cursor=pointer]
+                - gridcell "102015" [ref=f3e157]
+                - gridcell "01 - Regular" [ref=f3e158]
+                - gridcell "2026/04/00001" [ref=f3e159]
+                - gridcell "Test" [ref=f3e160]
+                - gridcell "Rp. 0" [ref=f3e161]
+                - gridcell "Laki-laki" [ref=f3e162]
+                - gridcell "Invalid date" [ref=f3e163]
+                - gridcell [ref=f3e164]
+                - gridcell "  " [ref=f3e165]:
+                  - generic [ref=f3e167]:
+                    - link "" [ref=f3e168] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e169]: 
+                    - link "" [ref=f3e170] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e171]: 
+                    - link "" [ref=f3e172] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e173]: 
+              - row "102014 01 - Regular 2026/04/00001 Budi Rp. 0 Laki-laki 16 November 1999   " [ref=f3e174]:
+                - gridcell [ref=f3e175]:
+                  - checkbox [ref=f3e177] [cursor=pointer]
+                - gridcell "102014" [ref=f3e178]
+                - gridcell "01 - Regular" [ref=f3e179]
+                - gridcell "2026/04/00001" [ref=f3e180]
+                - gridcell "Budi" [ref=f3e181]
+                - gridcell "Rp. 0" [ref=f3e182]
+                - gridcell "Laki-laki" [ref=f3e183]
+                - gridcell "16 November 1999" [ref=f3e184]
+                - gridcell [ref=f3e185]
+                - gridcell "  " [ref=f3e186]:
+                  - generic [ref=f3e188]:
+                    - link "" [ref=f3e189] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e190]: 
+                    - link "" [ref=f3e191] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e192]: 
+                    - link "" [ref=f3e193] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e194]: 
+              - row "101844 01 - Regular SAND Sandy Rp. 0 Laki-laki 23 April 2026 Jalan Naga Ngepot  " [ref=f3e195]:
+                - gridcell [ref=f3e196]
+                - gridcell "101844" [ref=f3e197]
+                - gridcell "01 - Regular" [ref=f3e198]
+                - gridcell "SAND" [ref=f3e199]
+                - gridcell "Sandy" [ref=f3e200]
+                - gridcell "Rp. 0" [ref=f3e201]
+                - gridcell "Laki-laki" [ref=f3e202]
+                - gridcell "23 April 2026" [ref=f3e203]
+                - gridcell "Jalan Naga Ngepot" [ref=f3e204]
+                - gridcell " " [ref=f3e205]:
+                  - generic [ref=f3e207]:
+                    - link "" [ref=f3e208] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e209]: 
+                    - link "" [ref=f3e210] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e211]: 
+              - row "101702 01 - Regular 2026/04/00001 Budi Rp. 0 Laki-laki 16 November 1999   " [ref=f3e212]:
+                - gridcell [ref=f3e213]:
+                  - checkbox [ref=f3e215] [cursor=pointer]
+                - gridcell "101702" [ref=f3e216]
+                - gridcell "01 - Regular" [ref=f3e217]
+                - gridcell "2026/04/00001" [ref=f3e218]
+                - gridcell "Budi" [ref=f3e219]
+                - gridcell "Rp. 0" [ref=f3e220]
+                - gridcell "Laki-laki" [ref=f3e221]
+                - gridcell "16 November 1999" [ref=f3e222]
+                - gridcell [ref=f3e223]
+                - gridcell "  " [ref=f3e224]:
+                  - generic [ref=f3e226]:
+                    - link "" [ref=f3e227] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e228]: 
+                    - link "" [ref=f3e229] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e230]: 
+                    - link "" [ref=f3e231] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e232]: 
+              - row "101701 01 - Regular 2026/04/00001 Test Rp. 0 Laki-laki Invalid date   " [ref=f3e233]:
+                - gridcell [ref=f3e234]:
+                  - checkbox [ref=f3e236] [cursor=pointer]
+                - gridcell "101701" [ref=f3e237]
+                - gridcell "01 - Regular" [ref=f3e238]
+                - gridcell "2026/04/00001" [ref=f3e239]
+                - gridcell "Test" [ref=f3e240]
+                - gridcell "Rp. 0" [ref=f3e241]
+                - gridcell "Laki-laki" [ref=f3e242]
+                - gridcell "Invalid date" [ref=f3e243]
+                - gridcell [ref=f3e244]
+                - gridcell "  " [ref=f3e245]:
+                  - generic [ref=f3e247]:
+                    - link "" [ref=f3e248] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e249]: 
+                    - link "" [ref=f3e250] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e251]: 
+                    - link "" [ref=f3e252] [cursor=pointer]:
+                      - /url: javascript:void(0);
+                      - generic [ref=f3e253]: 
+            - rowgroup [ref=f3e254]:
+              - row " Hapus Terpilih" [ref=f3e255]:
+                - gridcell [ref=f3e256]:
+                  - checkbox [ref=f3e257] [cursor=pointer]
+                - gridcell " Hapus Terpilih" [ref=f3e258]:
+                  - button " Hapus Terpilih" [ref=f3e259] [cursor=pointer]:
+                    - generic [ref=f3e260]: 
+                    - text: Hapus Terpilih
+          - status [ref=f3e261]: Showing 1 to 10 of 419 entries
+          - generic [ref=f3e262]:
+            - generic [ref=f3e263]: Previous
+            - generic [ref=f3e264]:
+              - generic [ref=f3e265] [cursor=pointer]: "1"
+              - generic [ref=f3e266] [cursor=pointer]: "2"
+              - generic [ref=f3e267] [cursor=pointer]: "3"
+              - generic [ref=f3e268] [cursor=pointer]: "4"
+              - generic [ref=f3e269] [cursor=pointer]: "5"
+              - text: …
+              - generic [ref=f3e270] [cursor=pointer]: "42"
+            - generic [ref=f3e271] [cursor=pointer]: Next
+    - generic [ref=e284] [cursor=pointer]: ×
+```
