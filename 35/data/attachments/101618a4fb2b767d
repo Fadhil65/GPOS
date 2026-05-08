@@ -1,0 +1,110 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - link "Bantu kami jadi lebih baik! Isi survei singkat kami sekarang. Masukan Anda sangat kami butuhkan. Terima kasih" [ref=e8] [cursor=pointer]:
+      - /url: /news
+      - generic [ref=e9]: Bantu kami jadi lebih baik! Isi survei singkat kami sekarang. Masukan Anda sangat kami butuhkan. Terima kasih
+    - link "Bantu kami jadi lebih baik! Isi survei singkat kami sekarang. Masukan Anda sangat kami butuhkan. Terima kasih" [ref=e13] [cursor=pointer]:
+      - /url: /news
+      - generic [ref=e14]: Bantu kami jadi lebih baik! Isi survei singkat kami sekarang. Masukan Anda sangat kami butuhkan. Terima kasih
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - link " Point of Sale (POS)" [ref=e20] [cursor=pointer]:
+        - /url: /point-of-sales
+        - generic [ref=e21]: 
+        - generic [ref=e22]: Point of Sale (POS)
+      - generic [ref=e26]: Online
+    - heading "MINI3 PROD TESTING" [level=2] [ref=e28]:
+      - link "MINI3 PROD TESTING" [ref=e29] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MINI3 PROD TESTING"
+    - generic [ref=e30]:
+      - link "18" [ref=e31] [cursor=pointer]:
+        - /url: /chat
+        - img
+        - generic [ref=e32]: "18"
+      - link "35" [ref=e33] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - img [ref=e34]
+        - generic [ref=e35]: "35"
+      - generic [ref=e36]:
+        - link [ref=e37] [cursor=pointer]:
+          - /url: "#"
+        - text:       
+  - generic [ref=e40]:
+    - generic [ref=e43]: 
+    - list [ref=e45]:
+      - listitem [ref=e46]:
+        - link "Berita Baru" [ref=e47] [cursor=pointer]:
+          - /url: /news
+          - img [ref=e48]
+          - generic [ref=e49]: Berita
+          - generic [ref=e50]: Baru
+      - listitem [ref=e51]:
+        - link "Dasbor" [ref=e52] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e53]
+          - generic [ref=e54]: Dasbor
+      - listitem [ref=e55]:
+        - link "Perusahaan" [ref=e56] [cursor=pointer]:
+          - /url: "#"
+          - img
+          - generic [ref=e57]: Perusahaan
+      - listitem [ref=e58]:
+        - link "Setup" [ref=e59] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e60]
+          - generic [ref=e61]: Setup
+        - text:       
+      - listitem [ref=e62]:
+        - link "Produk" [ref=e63] [cursor=pointer]:
+          - /url: /item
+          - img [ref=e64]
+          - generic [ref=e65]: Produk
+      - listitem [ref=e66]:
+        - link "Transaksi" [ref=e67] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e68]
+          - generic [ref=e69]: Transaksi
+        - text:      
+      - listitem [ref=e70]:
+        - link "Laporan" [ref=e71] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e72]
+          - generic [ref=e73]: Laporan
+        - text:     
+      - listitem [ref=e74]:
+        - link "Online" [ref=e75] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e76]
+          - generic [ref=e77]: Online
+      - listitem [ref=e78]:
+        - link "Belanja" [ref=e79] [cursor=pointer]:
+          - /url: /shop-b2b
+          - img [ref=e80]
+          - generic [ref=e81]: Belanja
+      - listitem [ref=e82]:
+        - link "Pengadaan" [ref=e83] [cursor=pointer]:
+          - /url: /smart-forecasting
+          - img
+          - generic [ref=e84]: Pengadaan
+  - link "" [ref=e88] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send/?phone=628174979644&text&app_absent=0
+    - generic [ref=e91]: 
+  - text:                     
+  - iframe [ref=e97]:
+    - generic [active] [ref=f2e1]:
+      - alert [ref=f2e2]
+      - main [ref=f2e4]
+  - generic [ref=e99]:
+    - paragraph [ref=e100]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+    - paragraph [ref=e101]:
+      - text: "Dipersembahkan Oleh:"
+      - link "PT. Anugrah Argon Medica" [ref=e102] [cursor=pointer]:
+        - /url: https://www.argon-group.com
+      - text: .
+      - combobox [ref=e103]:
+        - option "Indonesia" [selected]
+```
