@@ -1,0 +1,59 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - iframe [ref=e9]:
+    - generic [active] [ref=f2e1]:
+      - alert [ref=f2e2]
+      - generic [ref=f2e7]:
+        - generic [ref=f2e8]:
+          - generic [ref=f2e13]:
+            - generic:
+              - button [ref=f2e22] [cursor=pointer]
+              - button [ref=f2e23] [cursor=pointer]
+              - button [ref=f2e24] [cursor=pointer]
+            - generic:
+              - button [ref=f2e25] [cursor=pointer]:
+                - img [ref=f2e26]
+              - button [ref=f2e28] [cursor=pointer]:
+                - img [ref=f2e29]
+          - generic [ref=f2e31]:
+            - generic [ref=f2e32]:
+              - paragraph [ref=f2e33]: Program Brand
+              - link "Semua" [ref=f2e34] [cursor=pointer]:
+                - /url: /news/program-principal/list
+            - generic [ref=f2e35]:
+              - generic:
+                - button [ref=f2e68] [cursor=pointer]
+                - button [ref=f2e69] [cursor=pointer]
+                - button [ref=f2e70] [cursor=pointer]
+              - generic:
+                - button "chevron-mini-left" [ref=f2e71]:
+                  - img "chevron-mini-left" [ref=f2e72] [cursor=pointer]
+                - button "chevron-mini-right" [ref=f2e73] [cursor=pointer]:
+                  - img "chevron-mini-right" [ref=f2e74]
+          - generic [ref=f2e75]:
+            - generic [ref=f2e76]:
+              - paragraph [ref=f2e77]: Tutorial GPOS
+              - link "Semua" [ref=f2e78] [cursor=pointer]:
+                - /url: /news/tutorial/list
+            - generic:
+              - generic:
+                - button "chevron-mini-left" [ref=f2e79]:
+                  - img "chevron-mini-left" [ref=f2e80] [cursor=pointer]
+                - button "chevron-mini-right" [ref=f2e81]:
+                  - img "chevron-mini-right" [ref=f2e82] [cursor=pointer]
+        - generic [ref=f2e85]:
+          - paragraph [ref=f2e86]: ✨ Riwayat Pembaruan
+          - link "Semua" [ref=f2e87] [cursor=pointer]:
+            - /url: /news/changelog/list
+  - generic [ref=e11]:
+    - paragraph [ref=e12]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+    - paragraph [ref=e13]:
+      - text: "Dipersembahkan Oleh:"
+      - link "PT. Anugrah Argon Medica" [ref=e14] [cursor=pointer]:
+        - /url: https://www.argon-group.com
+      - text: .
+      - combobox [ref=e15]:
+        - option "Indonesia" [selected]
+```
