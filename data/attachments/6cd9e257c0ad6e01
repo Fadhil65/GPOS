@@ -1,0 +1,118 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!" [ref=e8] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e9]: KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!
+      - link "📣 Cuma 1 menit! Yuk isi survei singkat ini dan bantu kami jadi lebih baik untuk Anda. Terima kasih." [ref=e12] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e13]: 📣 Cuma 1 menit! Yuk isi survei singkat ini dan bantu kami jadi lebih baik untuk Anda. Terima kasih.
+    - generic [ref=e15]:
+      - link "KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!" [ref=e17] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e18]: KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!
+      - link "📣 Cuma 1 menit! Yuk isi survei singkat ini dan bantu kami jadi lebih baik untuk Anda. Terima kasih." [ref=e21] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e22]: 📣 Cuma 1 menit! Yuk isi survei singkat ini dan bantu kami jadi lebih baik untuk Anda. Terima kasih.
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - link " Point of Sale (POS)" [ref=e28] [cursor=pointer]:
+        - /url: /point-of-sales
+        - generic [ref=e29]: 
+        - generic [ref=e30]: Point of Sale (POS)
+      - generic [ref=e34]: Online
+    - heading "MINI3 PROD TESTING" [level=2] [ref=e36]:
+      - link "MINI3 PROD TESTING" [ref=e37] [cursor=pointer]:
+        - /url: /dashboard
+        - img "MINI3 PROD TESTING" [ref=e38]
+    - generic [ref=e39]:
+      - link "25" [ref=e40] [cursor=pointer]:
+        - /url: /chat
+        - img [ref=e41]
+        - generic [ref=e42]: "25"
+      - link "99+" [ref=e43] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - img [ref=e44]
+        - generic [ref=e45]: 99+
+      - generic [ref=e46]:
+        - link [ref=e47] [cursor=pointer]:
+          - /url: "#"
+        - text:       
+  - generic [ref=e50]:
+    - generic [ref=e53]: 
+    - list [ref=e55]:
+      - listitem [ref=e56]:
+        - link "Berita Baru" [ref=e57] [cursor=pointer]:
+          - /url: /news
+          - img [ref=e58]
+          - generic [ref=e59]: Berita
+          - generic [ref=e60]: Baru
+      - listitem [ref=e61]:
+        - link "Dasbor" [ref=e62] [cursor=pointer]:
+          - /url: /dashboard
+          - img [ref=e63]
+          - generic [ref=e64]: Dasbor
+      - listitem [ref=e65]:
+        - link "Perusahaan" [ref=e66] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e67]
+          - generic [ref=e68]: Perusahaan
+      - listitem [ref=e69]:
+        - link "Setup" [ref=e70] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e71]
+          - generic [ref=e72]: Setup
+        - text:        
+      - listitem [ref=e73]:
+        - link "Produk" [ref=e74] [cursor=pointer]:
+          - /url: /item
+          - img [ref=e75]
+          - generic [ref=e76]: Produk
+      - listitem [ref=e77]:
+        - link "Transaksi" [ref=e78] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e79]
+          - generic [ref=e80]: Transaksi
+        - text:         
+      - listitem [ref=e81]:
+        - link "Laporan" [ref=e82] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e83]
+          - generic [ref=e84]: Laporan
+        - text:         
+      - listitem [ref=e85]:
+        - link "Online" [ref=e86] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e87]
+          - generic [ref=e88]: Online
+      - listitem [ref=e89]:
+        - link "Belanja" [ref=e90] [cursor=pointer]:
+          - /url: /shop-b2b
+          - img [ref=e91]
+          - generic [ref=e92]: Belanja
+      - listitem [ref=e93]:
+        - link "Pengadaan" [ref=e94] [cursor=pointer]:
+          - /url: /smart-forecasting
+          - img [ref=e95]
+          - generic [ref=e96]: Pengadaan
+  - link "" [ref=e100] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send/?phone=628174979644&text&app_absent=0
+    - generic [ref=e103]: 
+  - text:                     
+  - iframe [ref=e109]:
+    - generic [active] [ref=f2e1]:
+      - alert [ref=f2e2]
+      - main [ref=f2e4]
+  - generic [ref=e111]:
+    - paragraph [ref=e112]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+    - paragraph [ref=e113]:
+      - text: "Dipersembahkan Oleh:"
+      - link "PT. Anugrah Argon Medica" [ref=e114] [cursor=pointer]:
+        - /url: https://www.argon-group.com
+      - text: .
+      - combobox [ref=e115]:
+        - option "Indonesia" [selected]
+```

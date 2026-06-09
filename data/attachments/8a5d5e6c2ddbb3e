@@ -1,0 +1,141 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link " Home" [ref=e8] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=e9]: 
+            - text: Home
+          - text: "|"
+        - text: "- QA Testing"
+      - generic [ref=e10]: "-"
+      - generic [ref=e11]:
+        - generic [ref=e12]: Tuesday, 09 June 2026 - 4:16:10 PM
+        - generic [ref=e13]:
+          - text: "|"
+          - link " Help" [ref=e14] [cursor=pointer]:
+            - /url: javascript:void(0)
+            - generic [ref=e15]: 
+            - text: Help
+    - generic [ref=e16]:
+      - generic [ref=e19]:
+        - generic [ref=e22]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: Customer
+            - generic [ref=e26]:
+              - textbox "Enter Customer" [ref=e27]
+              - button "" [ref=e29] [cursor=pointer]:
+                - generic [ref=e30]: 
+          - generic [ref=e32]:
+            - generic [ref=e33]: Doctor
+            - generic [ref=e34]:
+              - textbox "Enter Doctor" [ref=e35]
+              - button "" [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]: 
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - text: Total Item
+            - text: 0 / 0
+          - generic [ref=e43]: "0"
+      - generic [ref=e44]:
+        - generic [ref=e46]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: PLU / Barcode
+            - generic [ref=e50]:
+              - textbox "Enter PLU / Barcode" [active] [ref=e51]
+              - combobox [ref=e52]:
+                - option "-- Page --" [selected]
+                - option "Page 1"
+              - button "" [ref=e54] [cursor=pointer]:
+                - generic [ref=e55]: 
+          - generic [ref=e57]:
+            - generic [ref=e58]: Tuslah
+            - spinbutton [ref=e59]: "0"
+          - generic [ref=e61]:
+            - generic [ref=e62]: Qty
+            - spinbutton [ref=e63]: "0"
+          - generic [ref=e65]:
+            - generic [ref=e66]: Unit
+            - combobox [ref=e67]
+          - generic [ref=e69]:
+            - generic [ref=e70]: Price
+            - spinbutton [ref=e71]: "0"
+          - generic [ref=e73]:
+            - generic [ref=e74]: Discount
+            - textbox "Enter Discount" [ref=e75]: "0"
+          - generic [ref=e77]:
+            - generic [ref=e78]: Sub Total
+            - generic [ref=e79]:
+              - spinbutton [ref=e80]: "0"
+              - generic [ref=e81]:
+                - button "" [ref=e82] [cursor=pointer]:
+                  - generic [ref=e83]: 
+                - button "" [ref=e84] [cursor=pointer]:
+                  - generic [ref=e85]: 
+        - table [ref=e88]:
+          - rowgroup [ref=e89]:
+            - row "Item Name Qty Unit Tuslah Price Discount Sub Total" [ref=e90]:
+              - columnheader [ref=e91]
+              - columnheader "Item Name" [ref=e92]
+              - columnheader "Qty" [ref=e93]
+              - columnheader "Unit" [ref=e94]
+              - columnheader "Tuslah" [ref=e95]
+              - columnheader "Price" [ref=e96]
+              - columnheader "Discount" [ref=e97]
+              - columnheader "Sub Total" [ref=e98]
+          - rowgroup
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e102]:
+              - generic [ref=e103]: Description
+              - textbox "Enter Description" [ref=e104]
+            - generic [ref=e106]:
+              - generic [ref=e107]: Invoice No.
+              - textbox "Enter Invoince No." [ref=e108]
+            - generic [ref=e110]:
+              - generic [ref=e111]: Status
+              - combobox [ref=e112]:
+                - option "Pending"
+                - option "Process"
+                - option "Billed" [selected]
+            - generic [ref=e114]:
+              - generic [ref=e115]: Auto Add
+              - combobox [ref=e116]:
+                - option "No"
+                - option "Yes" [selected]
+            - generic [ref=e118]:
+              - button " Clear [CTRL+ALT+W]" [ref=e120] [cursor=pointer]:
+                - generic [ref=e121]: 
+                - text: Clear [CTRL+ALT+W]
+              - button " Payment Detail [CTRL+ALT+P]" [ref=e123] [cursor=pointer]:
+                - generic [ref=e124]: 
+                - text: Payment Detail [CTRL+ALT+P]
+          - generic [ref=e125]:
+            - generic [ref=e127]:
+              - generic [ref=e128]: Discount (Rp)
+              - textbox "0" [ref=e129]
+            - generic [ref=e131]:
+              - generic [ref=e132]: Charge CC
+              - textbox "0" [ref=e133]
+            - generic [ref=e135]:
+              - generic [ref=e136]: Payment
+              - textbox "0" [ref=e137]
+            - generic [ref=e139]:
+              - generic [ref=e140]: Change
+              - textbox "0" [ref=e141]
+              - button "" [ref=e142] [cursor=pointer]:
+                - generic [ref=e143]: 
+            - button " Save Transaction [F9]" [ref=e145] [cursor=pointer]:
+              - generic [ref=e146]: 
+              - text: Save Transaction [F9]
+  - generic [ref=e149]:
+    - paragraph [ref=e150]: Copyright 2016-2026 © All Rights Reserved. GPOS Lite
+    - paragraph [ref=e151]:
+      - text: "Presented by:"
+      - link "PT. Anugrah Argon Medica" [ref=e152] [cursor=pointer]:
+        - /url: https://www.argon-group.com
+```
