@@ -1,0 +1,96 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link " Point of Sale (POS)" [ref=e8] [cursor=pointer]:
+        - /url: /point-of-sales
+        - generic [ref=e9]: 
+        - generic [ref=e10]: Point of Sale (POS)
+      - generic [ref=e14]: Online
+    - generic:
+      - heading [level=2]:
+        - link:
+          - /url: /dashboard
+    - generic [ref=e15]:
+      - link:
+        - /url: javascript:void(0);
+        - img
+      - generic [ref=e16]:
+        - link [ref=e17] [cursor=pointer]:
+          - /url: "#"
+        - text:       
+  - generic [ref=e20]:
+    - generic [ref=e23]: 
+    - list [ref=e25]:
+      - listitem [ref=e26]:
+        - link "Berita Baru" [ref=e27] [cursor=pointer]:
+          - /url: /news
+          - img
+          - generic [ref=e28]: Berita
+          - generic [ref=e29]: Baru
+      - listitem [ref=e30]:
+        - link "Dasbor" [ref=e31] [cursor=pointer]:
+          - /url: /dashboard
+          - img
+          - generic [ref=e32]: Dasbor
+      - listitem [ref=e33]:
+        - link "Perusahaan" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - img
+          - generic [ref=e35]: Perusahaan
+      - listitem [ref=e36]:
+        - link "Setup" [ref=e37] [cursor=pointer]:
+          - /url: "#"
+          - img
+          - generic [ref=e38]: Setup
+        - text:        
+      - listitem [ref=e39]:
+        - link "Produk" [ref=e40] [cursor=pointer]:
+          - /url: /item
+          - img
+          - generic [ref=e41]: Produk
+      - listitem [ref=e42]:
+        - link "Transaksi" [ref=e43] [cursor=pointer]:
+          - /url: "#"
+          - img
+          - generic [ref=e44]: Transaksi
+        - text:        
+      - listitem [ref=e45]:
+        - link "Laporan" [ref=e46] [cursor=pointer]:
+          - /url: "#"
+          - img
+          - generic [ref=e47]: Laporan
+        - text:        
+      - listitem [ref=e48]:
+        - link "Online" [ref=e49] [cursor=pointer]:
+          - /url: "#"
+          - img
+          - generic [ref=e50]: Online
+      - listitem [ref=e51]:
+        - link "Belanja" [ref=e52] [cursor=pointer]:
+          - /url: /shop-b2b
+          - img
+          - generic [ref=e53]: Belanja
+      - listitem [ref=e54]:
+        - link "Pengadaan" [ref=e55] [cursor=pointer]:
+          - /url: /smart-forecasting
+          - img
+          - generic [ref=e56]: Pengadaan
+  - link "" [ref=e60] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send/?phone=628174979644&text&app_absent=0
+    - generic [ref=e63]: 
+  - text: 
+  - iframe [ref=e69]:
+    
+  - generic [ref=e71]:
+    - paragraph [ref=e72]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+    - paragraph [ref=e73]:
+      - text: "Dipersembahkan Oleh:"
+      - link "PT. Anugrah Argon Medica" [ref=e74] [cursor=pointer]:
+        - /url: https://www.argon-group.com
+      - text: .
+      - combobox [ref=e75]:
+        - option "Indonesia" [selected]
+```

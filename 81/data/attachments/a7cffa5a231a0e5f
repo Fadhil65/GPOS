@@ -1,0 +1,168 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!" [ref=e8] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e9]: KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!
+      - link "KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!" [ref=e13] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e14]: KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - link " Point of Sale (POS)" [ref=e20] [cursor=pointer]:
+          - /url: /point-of-sales
+          - generic [ref=e21]: 
+          - generic [ref=e22]: Point of Sale (POS)
+        - generic [ref=e26]: Online
+      - heading "MINI3 PROD TESTING" [level=2] [ref=e28]:
+        - link "MINI3 PROD TESTING" [ref=e29] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MINI3 PROD TESTING" [ref=e30]
+      - generic [ref=e31]:
+        - link "23" [ref=e32] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e33]
+          - generic [ref=e34]: "23"
+        - link "99+" [ref=e35] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img [ref=e36]
+          - generic [ref=e37]: 99+
+        - generic [ref=e38]:
+          - link [ref=e39] [cursor=pointer]:
+            - /url: "#"
+          - text:       
+    - generic [ref=e42]:
+      - generic [ref=e45]: 
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link "Berita Baru" [ref=e49] [cursor=pointer]:
+            - /url: /news
+            - img [ref=e50]
+            - generic [ref=e51]: Berita
+            - generic [ref=e52]: Baru
+        - listitem [ref=e53]:
+          - link "Dasbor" [ref=e54] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e55]
+            - generic [ref=e56]: Dasbor
+        - listitem [ref=e57]:
+          - link "Perusahaan" [ref=e58] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e59]
+            - generic [ref=e60]: Perusahaan
+        - listitem [ref=e61]:
+          - link "Setup" [ref=e62] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e63]
+            - generic [ref=e64]: Setup
+          - text:        
+        - listitem [ref=e65]:
+          - link "Produk" [ref=e66] [cursor=pointer]:
+            - /url: /item
+            - img [ref=e67]
+            - generic [ref=e68]: Produk
+        - listitem [ref=e69]:
+          - link "Transaksi" [ref=e70] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e71]
+            - generic [ref=e72]: Transaksi
+          - list [ref=e74]:
+            - listitem [ref=e75]:
+              - link "Pembelian" [ref=e76] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e77]:
+              - link "Penjualan" [ref=e78] [cursor=pointer]:
+                - /url: "#"
+              - list [ref=e79]:
+                - listitem [ref=e80]:
+                  - link "Kasir" [ref=e81] [cursor=pointer]:
+                    - /url: /cashier/index-table
+                - listitem [ref=e82]:
+                  - link "Buka/Tutup Kasir" [ref=e83] [cursor=pointer]:
+                    - /url: /cashier
+                - listitem [ref=e84]:
+                  - link "Buka POS" [active] [ref=e85] [cursor=pointer]:
+                    - /url: /point-of-sales/offline
+                - listitem [ref=e86]:
+                  - link "Pesanan Penjualan" [ref=e87] [cursor=pointer]:
+                    - /url: /sales-order
+                - listitem [ref=e88]:
+                  - link "Faktur Penjualan" [ref=e89] [cursor=pointer]:
+                    - /url: /sales-invoice
+                - listitem [ref=e90]:
+                  - link "Retur Penjualan" [ref=e91] [cursor=pointer]:
+                    - /url: /sales-return
+              - text: 
+            - listitem [ref=e92]:
+              - link "Persediaan" [ref=e93] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e94]:
+              - link "Medikal" [ref=e95] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e96]:
+              - link "Keuangan" [ref=e97] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e98]:
+              - link "Buku Besar" [ref=e99] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e100]:
+              - link "Kas & Bank" [ref=e101] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e102]:
+              - link "Promosi" [ref=e103] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e104]:
+              - link "Arsip Akuntansi Lama" [ref=e105] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+        - listitem [ref=e106]:
+          - link "Laporan" [ref=e107] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e108]
+            - generic [ref=e109]: Laporan
+          - text:         
+        - listitem [ref=e110]:
+          - link "Online" [ref=e111] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e112]
+            - generic [ref=e113]: Online
+        - listitem [ref=e114]:
+          - link "Belanja" [ref=e115] [cursor=pointer]:
+            - /url: /shop-b2b
+            - img [ref=e116]
+            - generic [ref=e117]: Belanja
+        - listitem [ref=e118]:
+          - link "Pengadaan" [ref=e119] [cursor=pointer]:
+            - /url: /smart-forecasting
+            - img [ref=e120]
+            - generic [ref=e121]: Pengadaan
+    - link "" [ref=e125] [cursor=pointer]:
+      - /url: https://api.whatsapp.com/send/?phone=628174979644&text&app_absent=0
+      - generic [ref=e128]: 
+    - text:                     
+    - iframe [ref=e134]:
+      - generic [active] [ref=f2e1]:
+        - alert [ref=f2e2]
+        - main [ref=f2e4]
+    - generic [ref=e136]:
+      - paragraph [ref=e137]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+      - paragraph [ref=e138]:
+        - text: "Dipersembahkan Oleh:"
+        - link "PT. Anugrah Argon Medica" [ref=e139] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+        - text: .
+        - combobox [ref=e140]:
+          - option "Indonesia" [selected]
+  - generic:
+    - iframe
+```

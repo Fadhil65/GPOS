@@ -1,0 +1,18 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - iframe [ref=e9]:
+    - generic [active] [ref=f2e1]:
+      - alert [ref=f2e2]
+      - main [ref=f2e4]
+  - generic [ref=e11]:
+    - paragraph [ref=e12]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+    - paragraph [ref=e13]:
+      - text: "Dipersembahkan Oleh:"
+      - link "PT. Anugrah Argon Medica" [ref=e14] [cursor=pointer]:
+        - /url: https://www.argon-group.com
+      - text: .
+      - combobox [ref=e15]:
+        - option "Indonesia" [selected]
+```
