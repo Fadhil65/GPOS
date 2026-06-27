@@ -1,0 +1,327 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!" [ref=e8] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e9]: KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!
+      - link "KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!" [ref=e13] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e14]: KIMBO KITCHEN BUBUR SIAP JADI PILIHAN! YUK TAWARKAN KE PELANGGAN BIAR MAKIN CUAN!
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]:
+          - generic [ref=e19]:
+            - link " Home" [ref=e20] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=e21]: 
+              - text: Home
+            - text: "|"
+          - text: GPOS MINI 3 PROD DEP - QA Testing
+          - generic [ref=e22]:
+            - generic [ref=e23]: 
+            - text: ONLINE
+        - generic [ref=e24]: CASH - CASH
+        - generic [ref=e25]:
+          - generic [ref=e26]: Saturday, 27 June 2026 - 2:52:05 PM
+          - generic [ref=e27]:
+            - text: "|"
+            - link " Help" [ref=e28] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e29]: 
+              - text: Help
+      - generic [ref=e32]:
+        - generic [ref=e36]:
+          - generic [ref=e39]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: Customer [CTRL+ALT+C]
+              - generic [ref=e43]:
+                - textbox "Enter Customer" [ref=e44]: Regular
+                - generic [ref=e45]:
+                  - button "" [ref=e46] [cursor=pointer]:
+                    - generic [ref=e47]: 
+                  - link "" [ref=e48] [cursor=pointer]:
+                    - /url: /customer/quick-create/?iframe=pos&input=customer_id
+                    - generic [ref=e49]: 
+            - generic [ref=e51]:
+              - generic [ref=e52]: Doctor [CTRL+ALT+D]
+              - generic [ref=e53]:
+                - textbox "Enter Doctor" [ref=e54]: Internal
+                - generic [ref=e55]:
+                  - button "" [ref=e56] [cursor=pointer]:
+                    - generic [ref=e57]: 
+                  - link "" [ref=e58] [cursor=pointer]:
+                    - /url: /doctor/create/?iframe=pos&input=doctor_id
+                    - generic [ref=e59]: 
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - text: Total Item
+              - text: 0 / 0
+            - generic [ref=e64]: "0"
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e69]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: PLU / Barcode
+                - generic [ref=e73]:
+                  - textbox "Enter PLU / Barcode [ALT+I]" [ref=e74]
+                  - generic [ref=e75]:
+                    - button "" [ref=e76] [cursor=pointer]:
+                      - generic [ref=e77]: 
+                    - link "" [ref=e78] [cursor=pointer]:
+                      - /url: /prescription/?iframe=pos&input=item_name
+                      - generic [ref=e79]: 
+              - generic [ref=e81]:
+                - generic [ref=e82]: Tuslah
+                - spinbutton [ref=e83]: "0"
+              - generic [ref=e85]:
+                - generic [ref=e86]: Qty
+                - spinbutton [ref=e87]: "0"
+              - generic [ref=e89]:
+                - generic [ref=e90]: Unit
+                - combobox [ref=e91]:
+                  - option "AMP" [selected]
+                  - option "BAG"
+                  - option "BAL"
+                  - option "BANDED"
+                  - option "BKS"
+                  - option "BOX"
+                  - option "BTL"
+                  - option "CAP"
+                  - option "CPLT"
+                  - option "CRM"
+                  - option "GR"
+                  - option "JAM"
+                  - option "KAPLET"
+                  - option "KLG"
+                  - option "MDS"
+                  - option "MG"
+                  - option "OVL"
+                  - option "PAK"
+                  - option "PCS"
+                  - option "POT"
+                  - option "SCHT"
+                  - option "SLP"
+                  - option "SOF"
+                  - option "STR"
+                  - option "SUP"
+                  - option "TAB"
+                  - option "TUB"
+                  - option "VIAL"
+                  - option "ML"
+                  - option "FEN"
+                  - option "LIANG"
+                  - option "Unit Testo"
+                  - option "tube"
+                  - option "KG"
+                  - option "DUS"
+                  - option "CTN"
+                  - option "MTR"
+              - generic [ref=e93]:
+                - generic [ref=e94]: Choose Price
+                - combobox [disabled] [ref=e95]:
+                  - option "Harga Jual 1" [selected]
+                  - option "Harga Jual 2"
+                  - option "Harga Jual 3"
+              - generic [ref=e97]:
+                - generic [ref=e98]: Price
+                - spinbutton [ref=e99]: "0"
+              - generic [ref=e101]:
+                - generic [ref=e102]: Discount
+                - textbox "Enter Discount" [ref=e103]: "0"
+              - generic [ref=e105]:
+                - generic [ref=e106]: Sub Total
+                - generic [ref=e107]:
+                  - spinbutton [ref=e108]: "0"
+                  - generic [ref=e109]:
+                    - button "" [ref=e110] [cursor=pointer]:
+                      - generic [ref=e111]: 
+                    - button "" [ref=e112] [cursor=pointer]:
+                      - generic [ref=e113]: 
+            - img [ref=e117] [cursor=pointer]
+          - generic [ref=e125]:
+            - table [ref=e129]:
+              - rowgroup [ref=e130]:
+                - row "[CTRL+ALT+L] Item Name Qty Unit Tuslah Price Discount Sub Total" [ref=e131]:
+                  - columnheader "[CTRL+ALT+L]" [ref=e132]
+                  - columnheader "Item Name" [ref=e133]
+                  - columnheader "Qty" [ref=e134]
+                  - columnheader "Unit" [ref=e135]
+                  - columnheader "Tuslah" [ref=e136]
+                  - columnheader "Price" [ref=e137]
+                  - columnheader "Discount" [ref=e138]
+                  - columnheader "Sub Total" [ref=e139]
+              - rowgroup
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - heading "Tebus Murah Tersedia!" [level=2] [ref=e142]
+                - img [ref=e144] [cursor=pointer]
+              - paragraph [ref=e147]: Ayo tawarkan produk pilihan dengan harga hemat ke pelanggan
+              - textbox "Cari produk..." [ref=e148]
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - strong [ref=e152]: HERBAKOF STRONG MINT 100 ML
+                  - generic [ref=e153]:
+                    - generic [ref=e154]:
+                      - generic [ref=e155]: "HARGA: Rp 7.000"
+                      - generic [ref=e156]: "STOK: -7 BTL"
+                    - button "+" [ref=e157] [cursor=pointer]
+                - generic [ref=e158]:
+                  - strong [ref=e160]: HERBAKOF SYR 100 ML
+                  - generic [ref=e161]:
+                    - generic [ref=e162]:
+                      - generic [ref=e163]: "HARGA: Rp 19.000"
+                      - generic [ref=e164]: "STOK: -8 BTL"
+                    - button "+" [ref=e165] [cursor=pointer]
+                - generic [ref=e166]:
+                  - strong [ref=e168]: OXYVIT C+ BOX 5 STR @ 6 KAPLET
+                  - generic [ref=e169]:
+                    - generic [ref=e170]:
+                      - generic [ref=e171]: "HARGA: Rp 51.000"
+                      - generic [ref=e172]: "STOK: 112 BOX"
+                    - button "+" [ref=e173] [cursor=pointer]
+                - generic [ref=e174]:
+                  - strong [ref=e176]: OXYVIT D3 1000 IU BTL 60 CAP
+                  - generic [ref=e177]:
+                    - generic [ref=e178]:
+                      - generic [ref=e179]: "HARGA: Rp 5.956.000"
+                      - generic [ref=e180]: "STOK: 90 BTL"
+                    - button "+" [ref=e181] [cursor=pointer]
+                - generic [ref=e182]:
+                  - strong [ref=e184]: STIMUNO FORTE BOX 1 STR @ 10 CAP
+                  - generic [ref=e185]:
+                    - generic [ref=e186]:
+                      - generic [ref=e187]: "HARGA: Rp 22.000"
+                      - generic [ref=e188]: "STOK: 9714 BOX"
+                    - button "+" [ref=e189] [cursor=pointer]
+                - generic [ref=e190]:
+                  - strong [ref=e192]: STIMUNO SYR ORIGINAL FLAVOR 100 ML
+                  - generic [ref=e193]:
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: "HARGA: Rp 32.000"
+                      - generic [ref=e196]: "STOK: 1 BTL"
+                    - button "+" [ref=e197] [cursor=pointer]
+                - generic [ref=e198]:
+                  - strong [ref=e200]: STIMUNO SYR GRAPE FLAVOR 100 ML
+                  - generic [ref=e201]:
+                    - generic [ref=e202]:
+                      - generic [ref=e203]: "HARGA: Rp 27.000"
+                      - generic [ref=e204]: "STOK: -1 BTL"
+                    - button "+" [ref=e205] [cursor=pointer]
+                - generic [ref=e206]:
+                  - strong [ref=e208]: STIMUNO ORANGE BERRY SYR 100 ML
+                  - generic [ref=e209]:
+                    - generic [ref=e210]:
+                      - generic [ref=e211]: "HARGA: Rp 22.000"
+                      - generic [ref=e212]: "STOK: 0 BTL"
+                    - button "+" [ref=e213] [cursor=pointer]
+                - generic [ref=e214]:
+                  - strong [ref=e216]: OXYVIT BOX 5 STR @ 6 CAP
+                  - generic [ref=e217]:
+                    - generic [ref=e218]:
+                      - generic [ref=e219]: "HARGA: Rp 54.000"
+                      - generic [ref=e220]: "STOK: 89 BOX"
+                    - button "+" [ref=e221] [cursor=pointer]
+                - generic [ref=e222]:
+                  - strong [ref=e224]: LYTACUR JERUK 100 ML
+                  - generic [ref=e225]:
+                    - generic [ref=e226]:
+                      - generic [ref=e227]: "HARGA: Rp 24.500"
+                      - generic [ref=e228]: "STOK: 0 BTL"
+                    - button "+" [ref=e229] [cursor=pointer]
+                - generic [ref=e230]:
+                  - strong [ref=e232]: STIMUNO FORTE 1 BTL @ 30 TAB
+                  - generic [ref=e233]:
+                    - generic [ref=e234]:
+                      - generic [ref=e235]: "HARGA: Rp 0"
+                      - generic [ref=e236]: "STOK: 78 BTL"
+                    - button "+" [disabled] [ref=e237] [cursor=pointer]
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - generic [ref=e241]:
+                - generic [ref=e242]: Description
+                - textbox "Enter Description" [ref=e243]
+              - generic [ref=e245]:
+                - generic [ref=e246]: Invoice No.
+                - textbox "Enter Invoice No." [ref=e247]
+              - generic [ref=e249]:
+                - generic [ref=e250]: Status
+                - combobox [ref=e251]:
+                  - option "Pending"
+                  - option "Process"
+                  - option "Billed" [selected]
+              - generic [ref=e253]:
+                - generic [ref=e254]: Auto Add
+                - combobox [ref=e255]:
+                  - option "No" [selected]
+                  - option "Yes"
+              - generic [ref=e257]:
+                - button " Clear [CTRL+ALT+W]" [ref=e259] [cursor=pointer]:
+                  - generic [ref=e260]: 
+                  - text: Clear [CTRL+ALT+W]
+                - button " Search Trans [CTRL+ALT+S]" [ref=e262] [cursor=pointer]:
+                  - generic [ref=e263]: 
+                  - text: Search Trans [CTRL+ALT+S]
+                - button " Payment Detail [CTRL+ALT+P]" [disabled] [ref=e265] [cursor=pointer]:
+                  - generic [ref=e266]: 
+                  - text: Payment Detail [CTRL+ALT+P]
+            - generic [ref=e267]:
+              - generic [ref=e269]:
+                - generic [ref=e270]: Discount (Rp) [CTRL+ALT+A]
+                - textbox "0" [ref=e271]
+              - generic [ref=e273]:
+                - generic [ref=e274]: Charge CC [CTRL+ALT+B]
+                - textbox "0" [ref=e275]
+              - generic [ref=e277]:
+                - generic [ref=e278]: Payment [CTRL+ALT+G]
+                - textbox "0" [ref=e279]
+              - generic [ref=e281]:
+                - generic [ref=e282]: Change
+                - textbox "0" [ref=e283]
+                - button "" [ref=e284] [cursor=pointer]:
+                  - generic [ref=e285]: 
+              - button " Save Transaction [F9]" [ref=e287] [cursor=pointer]:
+                - generic [ref=e288]: 
+                - text: Save Transaction [F9]
+    - generic [ref=e291]:
+      - paragraph [ref=e292]: Copyright 2016-2026 © All Rights Reserved. GPOS Lite
+      - paragraph [ref=e293]:
+        - text: "Presented by:"
+        - link "PT. Anugrah Argon Medica" [ref=e294] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+  - generic:
+    - iframe
+  - dialog [ref=e295]:
+    - document:
+      - generic [ref=e297]:
+        - heading "List Doctor" [level=6] [ref=e299]
+        - generic [ref=e302]:
+          - generic [ref=e304]:
+            - combobox "items/page" [ref=e305]:
+              - option "5" [selected]
+              - option "10"
+              - option "30"
+              - option "50"
+              - option "100"
+            - text: items/page
+          - searchbox [active] [ref=e308]: mawl
+          - generic [ref=e309]: Processing...
+          - grid [ref=e310]:
+            - rowgroup [ref=e311]:
+              - row "Action Id Code Name Location Phone Internal Default" [ref=e312]:
+                - columnheader "Action" [ref=e313]
+                - columnheader "Id" [ref=e314] [cursor=pointer]
+                - columnheader "Code" [ref=e315] [cursor=pointer]
+                - columnheader "Name" [ref=e316] [cursor=pointer]
+                - columnheader "Location" [ref=e317] [cursor=pointer]
+                - columnheader "Phone" [ref=e318] [cursor=pointer]
+                - columnheader "Internal" [ref=e319] [cursor=pointer]
+                - columnheader "Default" [ref=e320] [cursor=pointer]
+            - rowgroup
+          - status
+        - button " Close" [ref=e322] [cursor=pointer]:
+          - generic [ref=e323]: 
+          - text: Close
+```
