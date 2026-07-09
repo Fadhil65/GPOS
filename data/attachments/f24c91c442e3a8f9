@@ -1,0 +1,421 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "TAWARKAN MYWELL, WELMOVE, INDAL KE PELANGGAN, DAPATKAN INSENTIF MAKSIMAL" [ref=e8] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e9]: TAWARKAN MYWELL, WELMOVE, INDAL KE PELANGGAN, DAPATKAN INSENTIF MAKSIMAL
+        - link "Bantu kami jadi lebih baik & menangkan Rewards Rp50.000 untuk 3 Apotek Beruntung! KLIK SEKARANG untuk isi survei singkatnya!" [ref=e12] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e13]: Bantu kami jadi lebih baik & menangkan Rewards Rp50.000 untuk 3 Apotek Beruntung! KLIK SEKARANG untuk isi survei singkatnya!
+      - generic [ref=e15]:
+        - link "TAWARKAN MYWELL, WELMOVE, INDAL KE PELANGGAN, DAPATKAN INSENTIF MAKSIMAL" [ref=e17] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e18]: TAWARKAN MYWELL, WELMOVE, INDAL KE PELANGGAN, DAPATKAN INSENTIF MAKSIMAL
+        - link "Bantu kami jadi lebih baik & menangkan Rewards Rp50.000 untuk 3 Apotek Beruntung! KLIK SEKARANG untuk isi survei singkatnya!" [ref=e21] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e22]: Bantu kami jadi lebih baik & menangkan Rewards Rp50.000 untuk 3 Apotek Beruntung! KLIK SEKARANG untuk isi survei singkatnya!
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - link " Point of Sale (POS)" [ref=e28] [cursor=pointer]:
+          - /url: /point-of-sales
+          - generic [ref=e29]: 
+          - generic [ref=e30]: Point of Sale (POS)
+        - generic [ref=e34]: Online
+      - heading "MINI3 PROD TESTING" [level=2] [ref=e36]:
+        - link "MINI3 PROD TESTING" [ref=e37] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MINI3 PROD TESTING" [ref=e38]
+      - generic [ref=e39]:
+        - link "7" [ref=e40] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e41]
+          - generic [ref=e42]: "7"
+        - link "99+" [ref=e43] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img [ref=e44]
+          - generic [ref=e45]: 99+
+        - generic [ref=e46]:
+          - link [ref=e47] [cursor=pointer]:
+            - /url: "#"
+          - text:      
+    - generic [ref=e50]:
+      - generic [ref=e53]: 
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - link "Berita Baru" [ref=e57] [cursor=pointer]:
+            - /url: /news
+            - img [ref=e58]
+            - generic [ref=e59]: Berita
+            - generic [ref=e60]: Baru
+        - listitem [ref=e61]:
+          - link "Dasbor" [ref=e62] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e63]
+            - generic [ref=e64]: Dasbor
+        - listitem [ref=e65]:
+          - link "Perusahaan" [ref=e66] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e67]
+            - generic [ref=e68]: Perusahaan
+        - listitem [ref=e69]:
+          - link "Setup" [ref=e70] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e71]
+            - generic [ref=e72]: Setup
+          - text:        
+        - listitem [ref=e73]:
+          - link "Produk" [ref=e74] [cursor=pointer]:
+            - /url: /item
+            - img [ref=e75]
+            - generic [ref=e76]: Produk
+        - listitem [ref=e77]:
+          - link "Transaksi" [ref=e78] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e79]
+            - generic [ref=e80]: Transaksi
+          - text:         
+        - listitem [ref=e81]:
+          - link "Laporan" [ref=e82] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e83]
+            - generic [ref=e84]: Laporan
+          - text:         
+        - listitem [ref=e85]:
+          - link "Online" [ref=e86] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e87]
+            - generic [ref=e88]: Online
+        - listitem [ref=e89]:
+          - link "Belanja" [ref=e90] [cursor=pointer]:
+            - /url: /shop-b2b
+            - img [ref=e91]
+            - generic [ref=e92]: Belanja
+    - link "" [ref=e96] [cursor=pointer]:
+      - /url: https://api.whatsapp.com/send/?phone=628174979644&text&app_absent=0
+      - generic [ref=e99]: 
+    - text:                     
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - generic [ref=e104]:
+          - generic [ref=e106]:
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - generic [ref=e110]: Total Penjualan
+                - text: DATA DIPERBAHARUI 09 July 2026 - 10:23
+              - generic [ref=e112]:
+                - combobox [ref=e113]:
+                  - option "Harian" [selected]
+                  - option "Mingguan"
+                  - option "Bulanan"
+                - button "" [ref=e115] [cursor=pointer]:
+                  - generic [ref=e116]: 
+            - generic [ref=e117]:
+              - generic [ref=e118]:
+                - text: Rp 5.000
+                - generic [ref=e119]:
+                  - generic [ref=e120]: 
+                  - text: 96,67%
+              - generic [ref=e121]: Total penjualan adalah laporan ringkasan dari transaksi dengan kondisi faktur penjualan lunas dikurangi dengan retur penjualan yang telah selesai. (Filter mingguan dan bulanan akan mengambil data 7 & 30 hari sebelumnya dari tanggal hari ini)
+          - generic [ref=e123]:
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - generic [ref=e128]: 
+                - generic [ref=e129]:
+                  - paragraph [ref=e130]: Ada 5 Faktur Pembelian Jatuh Tempo
+                  - paragraph [ref=e131]: Dalam waktu 7 Hari Dari Sekarang
+              - link "LIHAT" [ref=e133] [cursor=pointer]:
+                - /url: /purchase-report/purchase-invoice
+                - paragraph [ref=e134]: LIHAT
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic [ref=e139]: 
+                - generic [ref=e140]:
+                  - paragraph [ref=e141]: Ada 0 Faktur Penjualan Jatuh Tempo
+                  - paragraph [ref=e142]: Dalam waktu 7 Hari Dari Sekarang
+              - link "LIHAT" [ref=e144] [cursor=pointer]:
+                - /url: /sales-report/sales-invoice
+                - paragraph [ref=e145]: LIHAT
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - generic [ref=e150]: 
+                - generic [ref=e151]:
+                  - paragraph [ref=e152]: Ada 2279 Item Kurang Dari Minimal Stock
+                  - paragraph [ref=e153]: Kurang dari Minimum Stok
+              - link "LIHAT" [ref=e155] [cursor=pointer]:
+                - /url: /inventory-report/min-max
+                - paragraph [ref=e156]: LIHAT
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e161]: 
+                - generic [ref=e162]:
+                  - paragraph [ref=e163]: Ada 118 Item Akan Kadaluarsa
+                  - paragraph [ref=e164]: Dalam waktu 180 Hari Dari Sekarang
+              - link "LIHAT" [ref=e166] [cursor=pointer]:
+                - /url: /inventory-report/batch-ed
+                - paragraph [ref=e167]: LIHAT
+        - generic [ref=e168]:
+          - generic [ref=e170]:
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: Total Hutang
+                - text: DATA DIPERBAHARUI 09 July 2026 - 10:25
+              - button "" [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]: 
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - text: "1.395"
+                - generic [ref=e182]: Faktur (Rp 5.559.610.667)
+                - generic [ref=e183]:
+                  - generic [ref=e184]: 
+                  - text: 0%
+              - generic [ref=e185]: Total hutang yang didapat dari perhitungan Faktur yang masih proses (outstanding)
+          - generic [ref=e187]:
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - generic [ref=e191]: Total Piutang
+                - text: DATA DIPERBAHARUI 09 July 2026 - 10:26
+              - button "" [ref=e195] [cursor=pointer]:
+                - generic [ref=e196]: 
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - text: "694"
+                - generic [ref=e199]: Faktur (Rp 124.648.296,86)
+                - generic [ref=e200]:
+                  - generic [ref=e201]: 
+                  - text: 0%
+              - generic [ref=e202]: Total piutang yang didapat dari perhitungan Faktur yang masih proses (outstanding)
+        - generic [ref=e203]:
+          - generic [ref=e205]:
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - generic [ref=e209]: Ringkasan Transaksi Penjualan Terakhir
+                - text: DATA DIPERBAHARUI 09 July 2026 - 10:27
+              - button "" [ref=e213] [cursor=pointer]:
+                - generic [ref=e214]: 
+            - table [ref=e217]:
+              - rowgroup [ref=e218]:
+                - row "Transaksi ID Tanggal Pelanggan Pembayaran Nilai Faktur" [ref=e219]:
+                  - columnheader "Transaksi ID" [ref=e220]
+                  - columnheader "Tanggal" [ref=e221]
+                  - columnheader "Pelanggan" [ref=e222]
+                  - columnheader "Pembayaran" [ref=e223]
+                  - columnheader "Nilai Faktur" [ref=e224]
+              - rowgroup [ref=e225]:
+                - row "SI-MINI3/07/2026/00020 09/07/26 Regular CASH 5.000" [ref=e226]:
+                  - cell "SI-MINI3/07/2026/00020" [ref=e227]
+                  - cell "09/07/26" [ref=e228]
+                  - cell "Regular" [ref=e229]
+                  - cell "CASH" [ref=e230]
+                  - cell "5.000" [ref=e231]
+                - row "SI-MINI3/07/2026/00019 08/07/26 Regular CASH 90.000" [ref=e232]:
+                  - cell "SI-MINI3/07/2026/00019" [ref=e233]
+                  - cell "08/07/26" [ref=e234]
+                  - cell "Regular" [ref=e235]
+                  - cell "CASH" [ref=e236]
+                  - cell "90.000" [ref=e237]
+                - row "SI-MINI3/07/2026/00018 08/07/26 Regular CASH 60.000" [ref=e238]:
+                  - cell "SI-MINI3/07/2026/00018" [ref=e239]
+                  - cell "08/07/26" [ref=e240]
+                  - cell "Regular" [ref=e241]
+                  - cell "CASH" [ref=e242]
+                  - cell "60.000" [ref=e243]
+                - row "SI-MINI3/07/2026/00015 07/07/26 Reguler CASH 47.500" [ref=e244]:
+                  - cell "SI-MINI3/07/2026/00015" [ref=e245]
+                  - cell "07/07/26" [ref=e246]
+                  - cell "Reguler" [ref=e247]
+                  - cell "CASH" [ref=e248]
+                  - cell "47.500" [ref=e249]
+                - row "SI-MINI3/07/2026/00014 07/07/26 Regular CASH 43.500" [ref=e250]:
+                  - cell "SI-MINI3/07/2026/00014" [ref=e251]
+                  - cell "07/07/26" [ref=e252]
+                  - cell "Regular" [ref=e253]
+                  - cell "CASH" [ref=e254]
+                  - cell "43.500" [ref=e255]
+                - row "SI-MINI3/07/2026/00012 06/07/26 Regular CASH 40.000" [ref=e256]:
+                  - cell "SI-MINI3/07/2026/00012" [ref=e257]
+                  - cell "06/07/26" [ref=e258]
+                  - cell "Regular" [ref=e259]
+                  - cell "CASH" [ref=e260]
+                  - cell "40.000" [ref=e261]
+                - row "SI-MINI3/07/2026/00011 06/07/26 Regular CASH 4.000" [ref=e262]:
+                  - cell "SI-MINI3/07/2026/00011" [ref=e263]
+                  - cell "06/07/26" [ref=e264]
+                  - cell "Regular" [ref=e265]
+                  - cell "CASH" [ref=e266]
+                  - cell "4.000" [ref=e267]
+                - row "SI-MINI3/07/2026/00010 03/07/26 Regular CASH 4.500" [ref=e268]:
+                  - cell "SI-MINI3/07/2026/00010" [ref=e269]
+                  - cell "03/07/26" [ref=e270]
+                  - cell "Regular" [ref=e271]
+                  - cell "CASH" [ref=e272]
+                  - cell "4.500" [ref=e273]
+                - row "SI-MINI3/07/2026/00008 03/07/26 Reguler CASH 95.000" [ref=e274]:
+                  - cell "SI-MINI3/07/2026/00008" [ref=e275]
+                  - cell "03/07/26" [ref=e276]
+                  - cell "Reguler" [ref=e277]
+                  - cell "CASH" [ref=e278]
+                  - cell "95.000" [ref=e279]
+                - row "SI-MINI3/07/2026/00007 03/07/26 Reguler CASH 38.000" [ref=e280]:
+                  - cell "SI-MINI3/07/2026/00007" [ref=e281]
+                  - cell "03/07/26" [ref=e282]
+                  - cell "Reguler" [ref=e283]
+                  - cell "CASH" [ref=e284]
+                  - cell "38.000" [ref=e285]
+                - row "SI-MINI3/06/2026/00055 26/06/26 Reguler CASH 30.000" [ref=e286]:
+                  - cell "SI-MINI3/06/2026/00055" [ref=e287]
+                  - cell "26/06/26" [ref=e288]
+                  - cell "Reguler" [ref=e289]
+                  - cell "CASH" [ref=e290]
+                  - cell "30.000" [ref=e291]
+                - row "SI-MINI3/07/2026/00005 02/07/26 Regular CASH 3.500" [ref=e292]:
+                  - cell "SI-MINI3/07/2026/00005" [ref=e293]
+                  - cell "02/07/26" [ref=e294]
+                  - cell "Regular" [ref=e295]
+                  - cell "CASH" [ref=e296]
+                  - cell "3.500" [ref=e297]
+                - row "SI-MINI3/07/2026/00004 02/07/26 Regular CASH 59.000" [ref=e298]:
+                  - cell "SI-MINI3/07/2026/00004" [ref=e299]
+                  - cell "02/07/26" [ref=e300]
+                  - cell "Regular" [ref=e301]
+                  - cell "CASH" [ref=e302]
+                  - cell "59.000" [ref=e303]
+                - row "SI-MINI3/07/2026/00002 02/07/26 Regular CASH 16.500" [ref=e304]:
+                  - cell "SI-MINI3/07/2026/00002" [ref=e305]
+                  - cell "02/07/26" [ref=e306]
+                  - cell "Regular" [ref=e307]
+                  - cell "CASH" [ref=e308]
+                  - cell "16.500" [ref=e309]
+                - row "SI-MINI3/06/2026/00054 29/06/26 Regular MULTI 6.000" [ref=e310]:
+                  - cell "SI-MINI3/06/2026/00054" [ref=e311]
+                  - cell "29/06/26" [ref=e312]
+                  - cell "Regular" [ref=e313]
+                  - cell "MULTI" [ref=e314]
+                  - cell "6.000" [ref=e315]
+                - row "SI-MINI3/06/2026/00051 26/06/26 Regular CASH 100.000.000" [ref=e316]:
+                  - cell "SI-MINI3/06/2026/00051" [ref=e317]
+                  - cell "26/06/26" [ref=e318]
+                  - cell "Regular" [ref=e319]
+                  - cell "CASH" [ref=e320]
+                  - cell "100.000.000" [ref=e321]
+                - row "SI-MINI3/06/2026/00050 24/06/26 NAKES RSUD CASH 218.000" [ref=e322]:
+                  - cell "SI-MINI3/06/2026/00050" [ref=e323]
+                  - cell "24/06/26" [ref=e324]
+                  - cell "NAKES RSUD" [ref=e325]
+                  - cell "CASH" [ref=e326]
+                  - cell "218.000" [ref=e327]
+                - row "SI-MINI3/06/2026/00049 24/06/26 Regular CASH 12.000" [ref=e328]:
+                  - cell "SI-MINI3/06/2026/00049" [ref=e329]
+                  - cell "24/06/26" [ref=e330]
+                  - cell "Regular" [ref=e331]
+                  - cell "CASH" [ref=e332]
+                  - cell "12.000" [ref=e333]
+                - row "SI-MINI3/06/2026/00048 23/06/26 An Wiwit CASH 280.500" [ref=e334]:
+                  - cell "SI-MINI3/06/2026/00048" [ref=e335]
+                  - cell "23/06/26" [ref=e336]
+                  - cell "An Wiwit" [ref=e337]
+                  - cell "CASH" [ref=e338]
+                  - cell "280.500" [ref=e339]
+                - row "SI-MINI3/06/2026/00047 23/06/26 An Freya CASH 515.000" [ref=e340]:
+                  - cell "SI-MINI3/06/2026/00047" [ref=e341]
+                  - cell "23/06/26" [ref=e342]
+                  - cell "An Freya" [ref=e343]
+                  - cell "CASH" [ref=e344]
+                  - cell "515.000" [ref=e345]
+          - generic [ref=e347]:
+            - generic [ref=e349]:
+              - generic [ref=e350]:
+                - generic [ref=e351]: Ringkasan Total Tagihan Per Supplier
+                - text: DATA DIPERBAHARUI 09 July 2026 - 10:27
+              - button "" [ref=e355] [cursor=pointer]:
+                - generic [ref=e356]: 
+            - table [ref=e359]:
+              - rowgroup [ref=e360]:
+                - row "Supplier Faktur Total Nilai Faktur" [ref=e361]:
+                  - columnheader "Supplier" [ref=e362]
+                  - columnheader "Faktur" [ref=e363]
+                  - columnheader "Total Nilai Faktur" [ref=e364]
+              - rowgroup [ref=e365]:
+                - row "CV DWI TUNGGAL 255 3.350.740.079" [ref=e366]:
+                  - cell "CV DWI TUNGGAL" [ref=e367]
+                  - cell "255" [ref=e368]
+                  - cell "3.350.740.079" [ref=e369]
+                - row "DEFAULT SUPPLIER 544 1.400.529.185" [ref=e370]:
+                  - cell "DEFAULT SUPPLIER" [ref=e371]
+                  - cell "544" [ref=e372]
+                  - cell "1.400.529.185" [ref=e373]
+                - row "CV BINA PUTRA HUSADA JAYA 180 559.701.666" [ref=e374]:
+                  - cell "CV BINA PUTRA HUSADA JAYA" [ref=e375]
+                  - cell "180" [ref=e376]
+                  - cell "559.701.666" [ref=e377]
+                - row "CV GISHA FE MANDIRI 89 103.794.732" [ref=e378]:
+                  - cell "CV GISHA FE MANDIRI" [ref=e379]
+                  - cell "89" [ref=e380]
+                  - cell "103.794.732" [ref=e381]
+                - row "PT ANUGRAH ARGON MEDICA 59 69.218.205" [ref=e382]:
+                  - cell "PT ANUGRAH ARGON MEDICA" [ref=e383]
+                  - cell "59" [ref=e384]
+                  - cell "69.218.205" [ref=e385]
+                - row "PT ANUGERAH PHARMINDO LESTARI 17 24.676.931" [ref=e386]:
+                  - cell "PT ANUGERAH PHARMINDO LESTARI" [ref=e387]
+                  - cell "17" [ref=e388]
+                  - cell "24.676.931" [ref=e389]
+                - row "CV JAMU NYONYA KARSIH 53 23.755.067" [ref=e390]:
+                  - cell "CV JAMU NYONYA KARSIH" [ref=e391]
+                  - cell "53" [ref=e392]
+                  - cell "23.755.067" [ref=e393]
+                - row "PT ENSEVAL PUTERA MEGATRADING 41 22.592.031" [ref=e394]:
+                  - cell "PT ENSEVAL PUTERA MEGATRADING" [ref=e395]
+                  - cell "41" [ref=e396]
+                  - cell "22.592.031" [ref=e397]
+                - row "PT BINA SAN PRIMA 25 18.440.009" [ref=e398]:
+                  - cell "PT BINA SAN PRIMA" [ref=e399]
+                  - cell "25" [ref=e400]
+                  - cell "18.440.009" [ref=e401]
+                - row "PT RIAU ANDALAN FARMA 2 6.117.980" [ref=e402]:
+                  - cell "PT RIAU ANDALAN FARMA" [ref=e403]
+                  - cell "2" [ref=e404]
+                  - cell "6.117.980" [ref=e405]
+        - generic [ref=e406]:
+          - generic [ref=e408]:
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - generic [ref=e412]: Ringkasan Penjualan Item Offline Terlaris
+                - text: DATA DIPERBAHARUI 09 July 2026 - 16:11
+              - generic [ref=e414]:
+                - combobox [ref=e415]:
+                  - option "Harian" [selected]
+                  - option "Mingguan"
+                  - option "Bulanan"
+                - button "" [ref=e417] [cursor=pointer]:
+                  - generic [ref=e418]: 
+            - generic [ref=e421]: Data Belum Tersedia
+          - generic [ref=e423]:
+            - generic [ref=e425]:
+              - generic [ref=e426]:
+                - generic [ref=e427]: Ringkasan Penjualan Item Online Terlaris
+                - text: DATA DIPERBAHARUI 09 July 2026 - 16:11
+              - generic [ref=e429]:
+                - combobox [ref=e430]:
+                  - option "Harian" [selected]
+                  - option "Mingguan"
+                  - option "Bulanan"
+                - button "" [ref=e432] [cursor=pointer]:
+                  - generic [ref=e433]: 
+            - generic [ref=e436]: Data Belum Tersedia
+      - text: 
+    - generic [ref=e438]:
+      - paragraph [ref=e439]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+      - paragraph [ref=e440]:
+        - text: "Dipersembahkan Oleh:"
+        - link "PT. Anugrah Argon Medica" [ref=e441] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+        - text: .
+        - combobox [ref=e442]:
+          - option "Indonesia" [selected]
+  - generic:
+    - iframe
+```
