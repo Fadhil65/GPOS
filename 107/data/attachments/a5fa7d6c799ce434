@@ -1,0 +1,228 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "TAWARKAN MYWELL, WELMOVE, INDAL KE PELANGGAN, DAPATKAN INSENTIF MAKSIMAL" [ref=e8] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e9]: TAWARKAN MYWELL, WELMOVE, INDAL KE PELANGGAN, DAPATKAN INSENTIF MAKSIMAL
+      - link "TAWARKAN MYWELL, WELMOVE, INDAL KE PELANGGAN, DAPATKAN INSENTIF MAKSIMAL" [ref=e13] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e14]: TAWARKAN MYWELL, WELMOVE, INDAL KE PELANGGAN, DAPATKAN INSENTIF MAKSIMAL
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - link " Point of Sale (POS)" [ref=e20] [cursor=pointer]:
+          - /url: /point-of-sales
+          - generic [ref=e21]: 
+          - generic [ref=e22]: Point of Sale (POS)
+        - generic [ref=e26]: Online
+      - heading "MINI3 PROD TESTING" [level=2] [ref=e28]:
+        - link "MINI3 PROD TESTING" [ref=e29] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MINI3 PROD TESTING" [ref=e30]
+      - generic [ref=e31]:
+        - link "7" [ref=e32] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e33]
+          - generic [ref=e34]: "7"
+        - link [ref=e35] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img [ref=e36]
+        - generic [ref=e37]:
+          - link [ref=e38] [cursor=pointer]:
+            - /url: "#"
+          - text:      
+    - generic [ref=e41]:
+      - generic [ref=e44]: 
+      - list [ref=e46]:
+        - listitem [ref=e47]:
+          - link "Berita Baru" [ref=e48] [cursor=pointer]:
+            - /url: /news
+            - img [ref=e49]
+            - generic [ref=e50]: Berita
+            - generic [ref=e51]: Baru
+        - listitem [ref=e52]:
+          - link "Dasbor" [ref=e53] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e54]
+            - generic [ref=e55]: Dasbor
+        - listitem [ref=e56]:
+          - link "Perusahaan" [ref=e57] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e58]
+            - generic [ref=e59]: Perusahaan
+        - listitem [ref=e60]:
+          - link "Setup" [ref=e61] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e62]
+            - generic [ref=e63]: Setup
+          - text:        
+        - listitem [ref=e64]:
+          - link "Produk" [ref=e65] [cursor=pointer]:
+            - /url: /item
+            - img [ref=e66]
+            - generic [ref=e67]: Produk
+        - listitem [ref=e68]:
+          - link "Transaksi" [ref=e69] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e70]
+            - generic [ref=e71]: Transaksi
+          - text:         
+        - listitem [ref=e72]:
+          - link "Laporan" [ref=e73] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e74]
+            - generic [ref=e75]: Laporan
+          - text:         
+        - listitem [ref=e76]:
+          - link "Online" [ref=e77] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e78]
+            - generic [ref=e79]: Online
+        - listitem [ref=e80]:
+          - link "Belanja" [ref=e81] [cursor=pointer]:
+            - /url: /shop-b2b
+            - img [ref=e82]
+            - generic [ref=e83]: Belanja
+    - link "" [ref=e87] [cursor=pointer]:
+      - /url: https://api.whatsapp.com/send/?phone=628174979644&text&app_absent=0
+      - generic [ref=e90]: 
+    - text:                     
+    - generic [ref=e91]:
+      - generic [ref=e92]:
+        - generic [ref=e95]:
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - generic [ref=e101]: Total Penjualan
+                - text: DATA DIPERBAHARUI 19 July 2026 - 14:34
+              - generic [ref=e103]:
+                - combobox [ref=e104]:
+                  - option "Harian" [selected]
+                  - option "Mingguan"
+                  - option "Bulanan"
+                - button "" [ref=e106] [cursor=pointer]:
+                  - generic [ref=e107]: 
+            - generic [ref=e108]:
+              - generic [ref=e109]: Rp --
+              - generic [ref=e110]: Total penjualan adalah laporan ringkasan dari transaksi dengan kondisi faktur penjualan lunas dikurangi dengan retur penjualan yang telah selesai. (Filter mingguan dan bulanan akan mengambil data 7 & 30 hari sebelumnya dari tanggal hari ini)
+          - generic [ref=e112]:
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - generic [ref=e117]: 
+                - generic [ref=e118]:
+                  - paragraph [ref=e119]: Ada 1 Faktur Pembelian Jatuh Tempo
+                  - paragraph [ref=e120]: Dalam waktu 7 Hari Dari Sekarang
+              - link "LIHAT" [ref=e122] [cursor=pointer]:
+                - /url: /purchase-report/purchase-invoice
+                - paragraph [ref=e123]: LIHAT
+            - generic [ref=e125]:
+              - generic [ref=e126]:
+                - generic [ref=e128]: 
+                - generic [ref=e129]:
+                  - paragraph [ref=e130]: Ada 0 Faktur Penjualan Jatuh Tempo
+                  - paragraph [ref=e131]: Dalam waktu 7 Hari Dari Sekarang
+              - link "LIHAT" [ref=e133] [cursor=pointer]:
+                - /url: /sales-report/sales-invoice
+                - paragraph [ref=e134]: LIHAT
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - generic [ref=e139]: 
+                - generic [ref=e140]:
+                  - paragraph [ref=e141]: Ada 2152 Item Kurang Dari Minimal Stock
+                  - paragraph [ref=e142]: Kurang dari Minimum Stok
+              - link "LIHAT" [ref=e144] [cursor=pointer]:
+                - /url: /inventory-report/min-max
+                - paragraph [ref=e145]: LIHAT
+            - generic [ref=e147]:
+              - generic [ref=e148]:
+                - generic [ref=e150]: 
+                - generic [ref=e151]:
+                  - paragraph [ref=e152]: Ada 116 Item Akan Kadaluarsa
+                  - paragraph [ref=e153]: Dalam waktu 180 Hari Dari Sekarang
+              - link "LIHAT" [ref=e155] [cursor=pointer]:
+                - /url: /inventory-report/batch-ed
+                - paragraph [ref=e156]: LIHAT
+        - generic [ref=e157]:
+          - generic [ref=e159]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]: Total Hutang
+                - text: DATA DIPERBAHARUI 19 July 2026 - 14:34
+              - button "" [ref=e167] [cursor=pointer]:
+                - generic [ref=e168]: 
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - text: "--"
+                - generic [ref=e171]: Item (Rp --)
+              - generic [ref=e172]: Total hutang yang didapat dari perhitungan Faktur yang masih proses (outstanding)
+          - generic [ref=e174]:
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - generic [ref=e178]: Total Piutang
+                - text: DATA DIPERBAHARUI 19 July 2026 - 14:34
+              - button "" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]: 
+            - generic [ref=e184]:
+              - generic [ref=e185]:
+                - text: "--"
+                - generic [ref=e186]: Item (Rp --)
+              - generic [ref=e187]: Total piutang yang didapat dari perhitungan Faktur yang masih proses (outstanding)
+        - generic [ref=e188]:
+          - generic [ref=e190]:
+            - generic [ref=e192]:
+              - generic [ref=e193]:
+                - generic [ref=e194]: Ringkasan Transaksi Penjualan Terakhir
+                - text: DATA DIPERBAHARUI 19 July 2026 - 14:34
+              - button "" [ref=e198] [cursor=pointer]:
+                - generic [ref=e199]: 
+            - generic [ref=e202]: Data Belum Tersedia
+          - generic [ref=e204]:
+            - generic [ref=e206]:
+              - generic [ref=e207]:
+                - generic [ref=e208]: Ringkasan Total Tagihan Per Supplier
+                - text: DATA DIPERBAHARUI 19 July 2026 - 14:34
+              - button "" [ref=e212] [cursor=pointer]:
+                - generic [ref=e213]: 
+            - generic [ref=e216]: Data Belum Tersedia
+        - generic [ref=e217]:
+          - generic [ref=e219]:
+            - generic [ref=e221]:
+              - generic [ref=e222]:
+                - generic [ref=e223]: Ringkasan Penjualan Item Offline Terlaris
+                - text: DATA DIPERBAHARUI 19 July 2026 - 14:34
+              - generic [ref=e225]:
+                - combobox [ref=e226]:
+                  - option "Harian" [selected]
+                  - option "Mingguan"
+                  - option "Bulanan"
+                - button "" [ref=e228] [cursor=pointer]:
+                  - generic [ref=e229]: 
+            - generic [ref=e232]: Data Belum Tersedia
+          - generic [ref=e234]:
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - generic [ref=e238]: Ringkasan Penjualan Item Online Terlaris
+                - text: DATA DIPERBAHARUI 19 July 2026 - 14:34
+              - generic [ref=e240]:
+                - combobox [ref=e241]:
+                  - option "Harian" [selected]
+                  - option "Mingguan"
+                  - option "Bulanan"
+                - button "" [ref=e243] [cursor=pointer]:
+                  - generic [ref=e244]: 
+            - generic [ref=e247]: Data Belum Tersedia
+      - text: 
+    - generic [ref=e249]:
+      - paragraph [ref=e250]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+      - paragraph [ref=e251]:
+        - text: "Dipersembahkan Oleh:"
+        - link "PT. Anugrah Argon Medica" [ref=e252] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+        - text: .
+        - combobox [ref=e253]:
+          - option "Indonesia" [selected]
+  - generic:
+    - iframe
+```
