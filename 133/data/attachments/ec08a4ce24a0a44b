@@ -1,0 +1,12 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - img "Logo" [ref=e3]
+  - generic [ref=e4]:
+    - img "Error Image" [ref=e5]
+    - heading "Situs ini sedang dalam perawatan" [level=1]
+    - paragraph: Kami meminta maaf atas ketidaknyamanan yang mungkin dialami.
+    - paragraph: Silakan kembali lagi nanti.
+```
