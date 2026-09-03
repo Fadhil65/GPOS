@@ -1,0 +1,291 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "HANYA BULAN SEPTEMBER. DISKON FISHERMAN'S UNTUK PASIEN Rp 2,000 DAN INSENTIF Rp 1,500!" [ref=e8] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e9]: HANYA BULAN SEPTEMBER. DISKON FISHERMAN'S UNTUK PASIEN Rp 2,000 DAN INSENTIF Rp 1,500!
+      - link "HANYA BULAN SEPTEMBER. DISKON FISHERMAN'S UNTUK PASIEN Rp 2,000 DAN INSENTIF Rp 1,500!" [ref=e13] [cursor=pointer]:
+        - /url: /news
+        - generic [ref=e14]: HANYA BULAN SEPTEMBER. DISKON FISHERMAN'S UNTUK PASIEN Rp 2,000 DAN INSENTIF Rp 1,500!
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - link " Point of Sale (POS)" [ref=e20] [cursor=pointer]:
+          - /url: /point-of-sales
+          - generic [ref=e21]: 
+          - generic [ref=e22]: Point of Sale (POS)
+        - generic [ref=e26]: Online
+      - heading "MINI3 PROD TESTING" [level=2] [ref=e28]:
+        - link "MINI3 PROD TESTING" [ref=e29] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MINI3 PROD TESTING" [ref=e30]
+      - generic [ref=e31]:
+        - link "7" [ref=e32] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e33]
+          - generic [ref=e34]: "7"
+        - link "89" [ref=e35] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img [ref=e36]
+          - generic [ref=e37]: "89"
+        - generic [ref=e38]:
+          - link [ref=e39] [cursor=pointer]:
+            - /url: "#"
+          - text:       
+    - generic [ref=e42]:
+      - generic [ref=e45]: 
+      - list [ref=e47]:
+        - listitem [ref=e48]:
+          - link [ref=e49] [cursor=pointer]:
+            - /url: /news
+            - img [ref=e50]
+        - listitem [ref=e51]:
+          - link [ref=e52] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e53]
+        - listitem [ref=e54]:
+          - link [ref=e55] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e56]
+        - listitem [ref=e57]:
+          - link [ref=e58] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e59]
+          - text:        
+        - listitem [ref=e60]:
+          - link [ref=e61] [cursor=pointer]:
+            - /url: /item
+            - img [ref=e62]
+        - listitem [ref=e63]:
+          - link [active] [ref=e64] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e65]
+          - text:         
+        - listitem [ref=e66]:
+          - link [ref=e67] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e68]
+          - text:         
+        - listitem [ref=e69]:
+          - link [ref=e70] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e71]
+        - listitem [ref=e72]:
+          - link [ref=e73] [cursor=pointer]:
+            - /url: /shop-b2b
+            - img [ref=e74]
+        - listitem [ref=e75]:
+          - link [ref=e76] [cursor=pointer]:
+            - /url: /smart-forecasting
+            - img [ref=e77]
+    - link "" [ref=e81] [cursor=pointer]:
+      - /url: https://api.whatsapp.com/send/?phone=628174979644&text&app_absent=0
+      - generic [ref=e84]: 
+    - text:                     
+    - iframe [ref=e90]:
+      - generic [active] [ref=f1e1]:
+        - alert [ref=f1e2]
+        - generic [ref=f1e7]:
+          - generic [ref=f1e8]:
+            - generic [ref=f1e10]:
+              - generic [ref=f1e12]:
+                - img "banner" [ref=f1e15] [cursor=pointer]
+                - img "banner" [ref=f1e18] [cursor=pointer]
+                - img "banner" [ref=f1e21] [cursor=pointer]
+              - generic:
+                - button [ref=f1e22] [cursor=pointer]
+                - button [ref=f1e23] [cursor=pointer]
+                - button [ref=f1e24] [cursor=pointer]
+              - generic:
+                - button [ref=f1e25]:
+                  - img [ref=f1e26]
+                - button [ref=f1e28] [cursor=pointer]:
+                  - img [ref=f1e29]
+            - generic [ref=f1e31]:
+              - generic [ref=f1e32]:
+                - paragraph [ref=f1e33]: Program Brand
+                - link "Semua" [ref=f1e34] [cursor=pointer]:
+                  - /url: /news/program-principal/list
+              - generic:
+                - generic:
+                  - button "chevron-mini-left" [ref=f1e35]:
+                    - img "chevron-mini-left" [ref=f1e36] [cursor=pointer]
+                  - button "chevron-mini-right" [ref=f1e37]:
+                    - img "chevron-mini-right" [ref=f1e38] [cursor=pointer]
+            - generic [ref=f1e39]:
+              - generic [ref=f1e40]:
+                - paragraph [ref=f1e41]: Tutorial GPOS
+                - link "Semua" [ref=f1e42] [cursor=pointer]:
+                  - /url: /news/tutorial/list
+              - generic [ref=f1e43]:
+                - generic [ref=f1e45]:
+                  - generic [ref=f1e47]:
+                    - generic [ref=f1e48]: ITEM
+                    - paragraph [ref=f1e49]: Cara Input Permintaan Item Baru
+                    - generic [ref=f1e51]: Berikut merupakan Video Tutorial langkah-langkah menambahkan permintaan item baru
+                    - link "Lihat Tutorial" [ref=f1e53] [cursor=pointer]:
+                      - /url: /news/tutorial/f4fc2bfb8d772bba9f8f240a0851f1b1090f92d4429408eb659bc8cb4d0bba59
+                  - generic [ref=f1e55]:
+                    - generic [ref=f1e56]: ITEM
+                    - paragraph [ref=f1e57]: Tutorial Tambah Cepat Menggunakan Excel
+                    - generic [ref=f1e59]: Berikut Tutorial Tambah Cepat Menggunakan Excel
+                    - link "Lihat Tutorial" [ref=f1e61] [cursor=pointer]:
+                      - /url: /news/tutorial/f971d30e57b90d0836f388fd6b71cbeaed43d7341c01101937bb3863490ed62b
+                  - generic [ref=f1e63]:
+                    - generic [ref=f1e64]: PENJUALAN
+                    - paragraph [ref=f1e65]: Faktur Penjualan Pesanan Online
+                    - generic [ref=f1e67]: Perhitungan dan penjelasan terkait pembaruan menu faktur penjualan Pesanan Online GPOS Lite
+                    - link "Lihat Tutorial" [ref=f1e69] [cursor=pointer]:
+                      - /url: /news/tutorial/84876e015e6e8771b01201890534adca0b7c52a9575e63f7e873cdaf37530fa5
+                  - generic [ref=f1e71]:
+                    - generic [ref=f1e72]: PERSEDIAAN
+                    - paragraph [ref=f1e73]: Cara Penyesuaian Stok
+                    - generic [ref=f1e75]: Pelajari cara melakukan penyesuaian stok dengan efektif
+                    - link "Lihat Tutorial" [ref=f1e77] [cursor=pointer]:
+                      - /url: /news/tutorial/ffc22683683e18296a5bb6a4012cd3d772c6e373f030a04f70f216df2d192c8e
+                  - generic [ref=f1e79]:
+                    - generic [ref=f1e80]: ITEM
+                    - paragraph [ref=f1e81]: Cara membuat harga bertingkat
+                    - generic [ref=f1e83]: Temukan cara mudah untuk membuat harga bertingkat
+                    - link "Lihat Tutorial" [ref=f1e85] [cursor=pointer]:
+                      - /url: /news/tutorial/821cfc6533d0cd6ec80ff59420df8f0fb621564cc97c5b1e0ea4e523e2d2c299
+                - generic:
+                  - button [ref=f1e86] [cursor=pointer]
+                  - button [ref=f1e87] [cursor=pointer]
+                  - button [ref=f1e88] [cursor=pointer]
+                  - button [ref=f1e89] [cursor=pointer]
+                  - button [ref=f1e90] [cursor=pointer]
+                - generic:
+                  - button "chevron-mini-left" [ref=f1e91]:
+                    - img "chevron-mini-left" [ref=f1e92] [cursor=pointer]
+                  - button "chevron-mini-right" [ref=f1e93] [cursor=pointer]:
+                    - img "chevron-mini-right" [ref=f1e94]
+          - generic [ref=f1e95]:
+            - generic [ref=f1e96]:
+              - paragraph [ref=f1e97]: Selamat Datang, GPOS Mini 3 Testing (Prod)!
+              - text: GPOS MINI 3 PROD DEP
+              - generic [ref=f1e98]:
+                - generic [ref=f1e99]: Aktif
+                - generic [ref=f1e101]: "Berakhir pada: 18 April 2030"
+            - generic [ref=f1e102]:
+              - generic [ref=f1e103]:
+                - paragraph [ref=f1e104]: ✨ Riwayat Pembaruan
+                - link "Semua" [ref=f1e105] [cursor=pointer]:
+                  - /url: /news/changelog/list
+              - generic [ref=f1e106]:
+                - generic [ref=f1e107]:
+                  - generic [ref=f1e108]:
+                    - generic [ref=f1e109]: PEMBARUAN
+                    - generic [ref=f1e110]: 05 Oktober 2025
+                  - paragraph [ref=f1e111]: Pengisian Data Pelanggan Program Tebus Murah
+                  - generic [ref=f1e113]: Pengisian Data Pelanggan Program Tebus Murah
+                  - link "Selengkapnya back" [ref=f1e115] [cursor=pointer]:
+                    - /url: /news/changelog/759f4a07e8f5fa716b1c9c9fc0413c897a8439e5e2934cde1651ca940b1f4e1d
+                    - generic [ref=f1e116]: Selengkapnya
+                    - img "back" [ref=f1e118]
+                - generic [ref=f1e119]:
+                  - generic [ref=f1e120]:
+                    - generic [ref=f1e121]: FITUR BARU
+                    - generic [ref=f1e122]: 19 Juni 2025
+                  - paragraph [ref=f1e123]: "Fitur Baru: Laporan Pogram"
+                  - generic [ref=f1e125]: Kini telah hadir menu baru yaitu Laporan Program, program khusus yang memberikan keuntungan lebih bagi Apotek.
+                  - link "Selengkapnya back" [ref=f1e127] [cursor=pointer]:
+                    - /url: /news/changelog/1c5641def77a8f785cb462be811628078775208f0348741e817b458dca109b28
+                    - generic [ref=f1e128]: Selengkapnya
+                    - img "back" [ref=f1e130]
+                - generic [ref=f1e131]:
+                  - generic [ref=f1e132]:
+                    - generic [ref=f1e133]: PEMBARUAN
+                    - generic [ref=f1e134]: 21 Mei 2025
+                  - paragraph [ref=f1e135]: GPOS Lite Update May 2025!
+                  - generic [ref=f1e137]: "Kami dengan senang hati mengumumkan bahwa GPOS Lite telah melakukan pembaruan fitur terbaru untuk meningkatkan pengalaman Anda dan akan tersedia di GPOS Lite pada tanggal 22 May 2025. Berikut beberapa fitur unggulan yang baru kami tambahkan:"
+                  - link "Selengkapnya back" [ref=f1e139] [cursor=pointer]:
+                    - /url: /news/changelog/559c19e55bb474e9e06cdd41c7aad434eebdb8bbdef30bce59ca503489831e8b
+                    - generic [ref=f1e140]: Selengkapnya
+                    - img "back" [ref=f1e142]
+                - generic [ref=f1e143]:
+                  - generic [ref=f1e144]:
+                    - generic [ref=f1e145]: FITUR BARU
+                    - generic [ref=f1e146]: 21 April 2025
+                  - paragraph [ref=f1e147]: New Fitur GPOS Lite!
+                  - generic [ref=f1e149]: Kini hadir Fitur baru Kalkulasi Markup Otomatis pada GPOS Lite!!
+                  - link "Selengkapnya back" [ref=f1e151] [cursor=pointer]:
+                    - /url: /news/changelog/b90520b0f91dd16850533be16c1d25d1a2cfbc4c75cebfd162fb8f071a564f1c
+                    - generic [ref=f1e152]: Selengkapnya
+                    - img "back" [ref=f1e154]
+                - generic [ref=f1e155]:
+                  - generic [ref=f1e156]:
+                    - generic [ref=f1e157]: PEMBARUAN
+                    - generic [ref=f1e158]: 24 Februari 2025
+                  - paragraph [ref=f1e159]: Update Fitur Permintaan Item Baru!!
+                  - generic [ref=f1e161]: Perubahan tampilan dan proses input permintaan item baru yang lebih intuitif dan efisien.
+                  - link "Selengkapnya back" [ref=f1e163] [cursor=pointer]:
+                    - /url: /news/changelog/b2cd3f9d58e5cb395cbd8c50863e9ec5a2dbd4d834ee63aaceb96fbd25df4fd9
+                    - generic [ref=f1e164]: Selengkapnya
+                    - img "back" [ref=f1e166]
+                - generic [ref=f1e167]:
+                  - generic [ref=f1e168]:
+                    - generic [ref=f1e169]: PEMBARUAN
+                    - generic [ref=f1e170]: 12 November 2024
+                  - paragraph [ref=f1e171]: Update Fitur GPOS Lite!
+                  - generic [ref=f1e173]: "Kami dengan senang hati mengumumkan bahwa GPOS Lite telah melakukan pembaruan fitur terbaru untuk meningkatkan pengalaman Anda dan akan tersedia di GPOS Lite pada tanggal 13 November 2024. Berikut beberapa fitur unggulan yang baru kami tambahkan:"
+                  - link "Selengkapnya back" [ref=f1e175] [cursor=pointer]:
+                    - /url: /news/changelog/39ce5796a07f0abea659b9a26e65c30384a301854187f2481ac8d3dff5f39be4
+                    - generic [ref=f1e176]: Selengkapnya
+                    - img "back" [ref=f1e178]
+                - generic [ref=f1e179]:
+                  - generic [ref=f1e180]:
+                    - generic [ref=f1e181]: PEMBARUAN
+                    - generic [ref=f1e182]: 31 Oktober 2024
+                  - paragraph [ref=f1e183]: Update Faktur Penjualan Pesanan Online!
+                  - generic [ref=f1e185]: Pembaruan Menu Faktur Penjualan Pesanan Online Untuk Apotek PKP & Non PKP
+                  - link "Selengkapnya back" [ref=f1e187] [cursor=pointer]:
+                    - /url: /news/changelog/39631ad1b610d13deda5cd4d51a48fd35ebcc48f55893a711bc0e4a2670f96af
+                    - generic [ref=f1e188]: Selengkapnya
+                    - img "back" [ref=f1e190]
+                - generic [ref=f1e191]:
+                  - generic [ref=f1e192]:
+                    - generic [ref=f1e193]: FITUR BARU
+                    - generic [ref=f1e194]: 20 Oktober 2024
+                  - paragraph [ref=f1e195]: Kini Hadir! Menu Pengadaan GPOS Lite
+                  - generic [ref=f1e197]: Kami dengan senang hati mengumumkan bahwa GPOS Lite telah melakukan Pembaruan Fitur terbaru untuk meningkatkan pengalaman Anda.
+                  - link "Selengkapnya back" [ref=f1e199] [cursor=pointer]:
+                    - /url: /news/changelog/5c9a2a08aea888f5bd9a11ece1ac025185cca4d8529a74ba562d14a7a2677d1b
+                    - generic [ref=f1e200]: Selengkapnya
+                    - img "back" [ref=f1e202]
+                - generic [ref=f1e203]:
+                  - generic [ref=f1e204]:
+                    - generic [ref=f1e205]: FITUR BARU
+                    - generic [ref=f1e206]: 16 Oktober 2024
+                  - paragraph [ref=f1e207]: Scan Barcode untuk GPOS Mobile
+                  - generic [ref=f1e209]: Fitur Scan Barcode Item menggunakan kamera, kini hadir di aplikasi GPOS Lite Mobile.
+                  - link "Selengkapnya back" [ref=f1e211] [cursor=pointer]:
+                    - /url: /news/changelog/680079505462cf6a1f948e30effd76fbb994b28cf8b2f1cc001da2b30f37d430
+                    - generic [ref=f1e212]: Selengkapnya
+                    - img "back" [ref=f1e214]
+                - generic [ref=f1e215]:
+                  - generic [ref=f1e216]:
+                    - generic [ref=f1e217]: FITUR BARU
+                    - generic [ref=f1e218]: 16 Oktober 2024
+                  - paragraph [ref=f1e219]: Kini Hadir! Menu Berita GPOS Lite
+                  - generic [ref=f1e221]: Menu Berita GPOS Lite membantu apotek untuk mendapatkan info terkini mengenai fitur baru / info program brand yang dapat digunakan apotek.
+                  - link "Selengkapnya back" [ref=f1e223] [cursor=pointer]:
+                    - /url: /news/changelog/0b9b5d7e3f9e2db985dc27ec5d0df205e129af798330efc58a64d64eff54630c
+                    - generic [ref=f1e224]: Selengkapnya
+                    - img "back" [ref=f1e226]
+                - link "Lihat Semua Perubahan" [ref=f1e228] [cursor=pointer]:
+                  - /url: /news/changelog/list
+    - generic [ref=e92]:
+      - paragraph [ref=e93]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+      - paragraph [ref=e94]:
+        - text: "Dipersembahkan Oleh:"
+        - link "PT. Anugrah Argon Medica" [ref=e95] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+        - text: .
+        - combobox [ref=e96]:
+          - option "Indonesia" [selected]
+  - generic:
+    - iframe
+```
