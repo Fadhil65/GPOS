@@ -1,0 +1,244 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "CUKUP 1 MENIT. GABUNG KUIS INI DAN DAPATKAN REWARD MENARIK!" [ref=e8] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e9]: CUKUP 1 MENIT. GABUNG KUIS INI DAN DAPATKAN REWARD MENARIK!
+        - link "TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!" [ref=e12] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e13]: TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!
+        - link "HANYA BULAN SEPTEMBER. DISKON FISHERMAN'S UNTUK PASIEN Rp 2,000 DAN INSENTIF Rp 1,500!" [ref=e16] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e17]: HANYA BULAN SEPTEMBER. DISKON FISHERMAN'S UNTUK PASIEN Rp 2,000 DAN INSENTIF Rp 1,500!
+      - generic [ref=e19]:
+        - link "CUKUP 1 MENIT. GABUNG KUIS INI DAN DAPATKAN REWARD MENARIK!" [ref=e21] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e22]: CUKUP 1 MENIT. GABUNG KUIS INI DAN DAPATKAN REWARD MENARIK!
+        - link "TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!" [ref=e25] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e26]: TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!
+        - link "HANYA BULAN SEPTEMBER. DISKON FISHERMAN'S UNTUK PASIEN Rp 2,000 DAN INSENTIF Rp 1,500!" [ref=e29] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e30]: HANYA BULAN SEPTEMBER. DISKON FISHERMAN'S UNTUK PASIEN Rp 2,000 DAN INSENTIF Rp 1,500!
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - link " Home" [ref=e36] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=e37]: 
+              - text: Home
+            - text: "|"
+          - text: GPOS MINI 3 PROD DEP - QA Testing
+          - generic [ref=e38]:
+            - generic [ref=e39]: 
+            - text: ONLINE
+        - generic [ref=e40]: CASH - CASH
+        - generic [ref=e41]:
+          - generic [ref=e42]: Wednesday, 09 September 2026 - 5:09:28 PM
+          - generic [ref=e43]:
+            - text: "|"
+            - link " Help" [ref=e44] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e45]: 
+              - text: Help
+      - generic [ref=e48]:
+        - generic [ref=e51]:
+          - generic [ref=e54]:
+            - generic [ref=e56]:
+              - generic [ref=e57]: Customer [CTRL+ALT+C]
+              - generic [ref=e58]:
+                - generic [ref=e59]:
+                  - generic [ref=e60]: Caesar
+                  - generic [ref=e61]:
+                    - generic [ref=e62]: POIN SAAT INI
+                    - generic [ref=e63]:
+                      - img [ref=e65]
+                      - text: "200"
+                - generic [ref=e68]:
+                  - button "" [ref=e69] [cursor=pointer]:
+                    - generic [ref=e70]: 
+                  - link "" [ref=e71] [cursor=pointer]:
+                    - /url: /customer/quick-create/?iframe=pos&input=customer_id
+                    - generic [ref=e72]: 
+            - generic [ref=e74]:
+              - generic [ref=e75]: Doctor [CTRL+ALT+D]
+              - generic [ref=e76]:
+                - textbox "Enter Doctor" [ref=e77]: Internal
+                - generic [ref=e78]:
+                  - button "" [ref=e79] [cursor=pointer]:
+                    - generic [ref=e80]: 
+                  - link "" [ref=e81] [cursor=pointer]:
+                    - /url: /doctor/create/?iframe=pos&input=doctor_id
+                    - generic [ref=e82]: 
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - text: Total Item
+              - text: 0 / 0
+            - generic [ref=e87]: "0"
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e92]:
+              - generic [ref=e94]:
+                - generic [ref=e95]: PLU / Barcode
+                - generic [ref=e96]:
+                  - textbox "Enter PLU / Barcode [ALT+I]" [ref=e97]
+                  - generic [ref=e98]:
+                    - button "" [ref=e99] [cursor=pointer]:
+                      - generic [ref=e100]: 
+                    - link "" [ref=e101] [cursor=pointer]:
+                      - /url: /prescription/?iframe=pos&input=item_name
+                      - generic [ref=e102]: 
+              - generic [ref=e104]:
+                - generic [ref=e105]: Tuslah
+                - spinbutton [ref=e106]: "0"
+              - generic [ref=e108]:
+                - generic [ref=e109]: Qty
+                - spinbutton [ref=e110]: "0"
+              - generic [ref=e112]:
+                - generic [ref=e113]: Unit
+                - combobox [ref=e114]:
+                  - option "AMP" [selected]
+                  - option "BAG"
+                  - option "BAL"
+                  - option "BANDED"
+                  - option "BKS"
+                  - option "BOX"
+                  - option "BTL"
+                  - option "CAP"
+                  - option "CPLT"
+                  - option "CRM"
+                  - option "GR"
+                  - option "JAM"
+                  - option "KAPLET"
+                  - option "KLG"
+                  - option "MDS"
+                  - option "MG"
+                  - option "OVL"
+                  - option "PAK"
+                  - option "PCS"
+                  - option "POT"
+                  - option "SCHT"
+                  - option "SLP"
+                  - option "SOF"
+                  - option "STR"
+                  - option "SUP"
+                  - option "TAB"
+                  - option "TUB"
+                  - option "VIAL"
+                  - option "ML"
+                  - option "FEN"
+                  - option "LIANG"
+                  - option "Unit Testo"
+                  - option "tube"
+                  - option "KG"
+                  - option "DUS"
+                  - option "CTN"
+                  - option "MTR"
+              - generic [ref=e116]:
+                - generic [ref=e117]: Choose Price
+                - combobox [disabled] [ref=e118]:
+                  - option "Harga Jual 1" [selected]
+                  - option "Harga Jual 2"
+                  - option "Harga Jual 3"
+              - generic [ref=e120]:
+                - generic [ref=e121]: Price
+                - spinbutton [ref=e122]: "0"
+              - generic [ref=e124]:
+                - generic [ref=e125]: Discount
+                - textbox "Enter Discount" [ref=e126]: "0"
+              - generic [ref=e128]:
+                - generic [ref=e129]: Sub Total
+                - generic [ref=e130]:
+                  - spinbutton [ref=e131]: "0"
+                  - generic [ref=e132]:
+                    - button "" [ref=e133] [cursor=pointer]:
+                      - generic [ref=e134]: 
+                    - button "" [ref=e135] [cursor=pointer]:
+                      - generic [ref=e136]: 
+            - img [ref=e140] [cursor=pointer]
+          - generic [ref=e148]:
+            - table [ref=e152]:
+              - rowgroup [ref=e153]:
+                - row "[CTRL+ALT+L] Item Name Qty Unit Tuslah Price Discount Sub Total" [ref=e154]:
+                  - columnheader "[CTRL+ALT+L]" [ref=e155]
+                  - columnheader "Item Name" [ref=e156]
+                  - columnheader "Qty" [ref=e157]
+                  - columnheader "Unit" [ref=e158]
+                  - columnheader "Tuslah" [ref=e159]
+                  - columnheader "Price" [ref=e160]
+                  - columnheader "Discount" [ref=e161]
+                  - columnheader "Sub Total" [ref=e162]
+              - rowgroup
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - heading "Tebus Murah Tersedia!" [level=2] [ref=e165]
+                - img [ref=e167] [cursor=pointer]
+              - paragraph [ref=e170]: Tawarkan item produk dengan harga spesial ke pelanggan! (Maks. Qty 5 per transaksi)
+              - textbox "Cari produk..." [ref=e171]
+              - paragraph [ref=e172]: Produk tebus murah tidak ditemukan
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e176]:
+                - generic [ref=e177]: Description
+                - textbox "Enter Description" [ref=e178]
+              - generic [ref=e180]:
+                - generic [ref=e181]: Invoice No.
+                - textbox "Enter Invoice No." [ref=e182]
+              - generic [ref=e184]:
+                - generic [ref=e185]: Status
+                - combobox [ref=e186]:
+                  - option "Pending"
+                  - option "Process"
+                  - option "Billed" [selected]
+              - generic [ref=e188]:
+                - generic [ref=e189]: Auto Add
+                - combobox [ref=e190]:
+                  - option "No" [selected]
+                  - option "Yes"
+              - generic [ref=e192]:
+                - button " Clear [CTRL+ALT+W]" [ref=e194] [cursor=pointer]:
+                  - generic [ref=e195]: 
+                  - text: Clear [CTRL+ALT+W]
+                - button " Search Trans [CTRL+ALT+S]" [ref=e197] [cursor=pointer]:
+                  - generic [ref=e198]: 
+                  - text: Search Trans [CTRL+ALT+S]
+                - button " Payment Detail [CTRL+ALT+P]" [disabled] [ref=e200] [cursor=pointer]:
+                  - generic [ref=e201]: 
+                  - text: Payment Detail [CTRL+ALT+P]
+            - generic [ref=e202]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: Discount (Rp) [CTRL+ALT+A]
+                - textbox "0" [ref=e206]
+              - generic [ref=e208]:
+                - generic [ref=e209]: Charge CC [CTRL+ALT+B]
+                - textbox "0" [ref=e210]
+              - generic [ref=e212]:
+                - generic [ref=e213]: Payment [CTRL+ALT+G]
+                - textbox "0" [ref=e214]
+                - generic [ref=e215]: +0 poin diperoleh dari transaksi ini
+              - generic [ref=e217]:
+                - generic [ref=e218]: Change
+                - textbox "0" [ref=e219]
+                - button "" [ref=e220] [cursor=pointer]:
+                  - generic [ref=e221]: 
+              - button " Save Transaction [F9]" [ref=e223] [cursor=pointer]:
+                - generic [ref=e224]: 
+                - text: Save Transaction [F9]
+    - generic [ref=e227]:
+      - paragraph [ref=e228]: Copyright 2016-2026 © All Rights Reserved. GPOS Lite
+      - paragraph [ref=e229]:
+        - text: "Presented by:"
+        - link "PT. Anugrah Argon Medica" [ref=e230] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+  - generic:
+    - iframe
+  - generic [ref=e231]:
+    - iframe [active] [ref=e234]:
+      
+    - generic [ref=e235] [cursor=pointer]: ×
+```
