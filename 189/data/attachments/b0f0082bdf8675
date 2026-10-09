@@ -1,0 +1,202 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!" [ref=e8] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e9]: MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!
+        - link "JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!" [ref=e12] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e13]: JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!
+        - link "SISA 2 HARI LAGI UNTUK ISI SURVEY GPOS LITE! DAPATKAN TOTAL HADIAH RP750.000 UNTUK 10 YANG BERUNTUNG !" [ref=e16] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e17]: SISA 2 HARI LAGI UNTUK ISI SURVEY GPOS LITE! DAPATKAN TOTAL HADIAH RP750.000 UNTUK 10 YANG BERUNTUNG !
+        - link "TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!" [ref=e20] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e21]: TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!
+      - generic [ref=e23]:
+        - link "MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!" [ref=e25] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e26]: MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!
+        - link "JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!" [ref=e29] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e30]: JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!
+        - link "SISA 2 HARI LAGI UNTUK ISI SURVEY GPOS LITE! DAPATKAN TOTAL HADIAH RP750.000 UNTUK 10 YANG BERUNTUNG !" [ref=e33] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e34]: SISA 2 HARI LAGI UNTUK ISI SURVEY GPOS LITE! DAPATKAN TOTAL HADIAH RP750.000 UNTUK 10 YANG BERUNTUNG !
+        - link "TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!" [ref=e37] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e38]: TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - link " Point of Sale (POS)" [ref=e44] [cursor=pointer]:
+          - /url: /point-of-sales
+          - generic [ref=e45]: 
+          - generic [ref=e46]: Point of Sale (POS)
+        - generic [ref=e50]: Online
+      - heading "MINI3 PROD TESTING" [level=2] [ref=e52]:
+        - link "MINI3 PROD TESTING" [ref=e53] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MINI3 PROD TESTING" [ref=e54]
+      - generic [ref=e55]:
+        - link "27" [ref=e56] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e57]
+          - generic [ref=e58]: "27"
+        - link "99+" [ref=e59] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img [ref=e60]
+          - generic [ref=e61]: 99+
+        - generic [ref=e62]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: "#"
+          - text:       
+    - generic [ref=e66]:
+      - generic [ref=e69]: 
+      - list [ref=e71]:
+        - listitem [ref=e72]:
+          - link [ref=e73] [cursor=pointer]:
+            - /url: /news
+            - img [ref=e74]
+        - listitem [ref=e75]:
+          - link [ref=e76] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e77]
+        - listitem [ref=e78]:
+          - link [ref=e79] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e80]
+        - listitem [ref=e81]:
+          - link [ref=e82] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e83]
+          - text:        
+        - listitem [ref=e84]:
+          - link [ref=e85] [cursor=pointer]:
+            - /url: /item
+            - img [ref=e86]
+        - listitem [ref=e87]:
+          - link [ref=e88] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e89]
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "Pembelian" [ref=e93] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e94]:
+              - link "Penjualan" [ref=e95] [cursor=pointer]:
+                - /url: "#"
+              - list [ref=e96]:
+                - listitem [ref=e97]:
+                  - link "Kasir" [ref=e98] [cursor=pointer]:
+                    - /url: /cashier/index-table
+                - listitem [ref=e99]:
+                  - link "Buka/Tutup Kasir" [ref=e100] [cursor=pointer]:
+                    - /url: /cashier
+                - listitem [ref=e101]:
+                  - link "Buka POS" [active] [ref=e102] [cursor=pointer]:
+                    - /url: /point-of-sales/offline
+                - listitem [ref=e103]:
+                  - link "Pesanan Penjualan" [ref=e104] [cursor=pointer]:
+                    - /url: /sales-order
+                - listitem [ref=e105]:
+                  - link "Faktur Penjualan" [ref=e106] [cursor=pointer]:
+                    - /url: /sales-invoice
+                - listitem [ref=e107]:
+                  - link "Retur Penjualan" [ref=e108] [cursor=pointer]:
+                    - /url: /sales-return
+              - text: 
+            - listitem [ref=e109]:
+              - link "Persediaan" [ref=e110] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e111]:
+              - link "Medikal" [ref=e112] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e113]:
+              - link "Keuangan" [ref=e114] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e115]:
+              - link "Buku Besar" [ref=e116] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e117]:
+              - link "Kas & Bank" [ref=e118] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e119]:
+              - link "Promosi" [ref=e120] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e121]:
+              - link "Arsip Akuntansi Lama" [ref=e122] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+        - listitem [ref=e123]:
+          - link [ref=e124] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e125]
+          - text:         
+        - listitem [ref=e126]:
+          - link [ref=e127] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e128]
+        - listitem [ref=e129]:
+          - link [ref=e130] [cursor=pointer]:
+            - /url: /shop-b2b
+            - img [ref=e131]
+        - listitem [ref=e132]:
+          - link [ref=e133] [cursor=pointer]:
+            - /url: /smart-forecasting
+            - img [ref=e134]
+    - text:                     
+    - iframe [ref=e142]:
+      
+    - generic [ref=e144]:
+      - paragraph [ref=e145]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+      - paragraph [ref=e146]:
+        - text: "Dipersembahkan Oleh:"
+        - link "PT. Anugrah Argon Medica" [ref=e147] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+        - text: .
+        - combobox [ref=e148]:
+          - option "Indonesia" [selected]
+  - generic:
+    - iframe
+  - generic [ref=e149]:
+    - button [ref=e150] [cursor=pointer]:
+      - img [ref=e151]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - heading "GPOS Care" [level=3]
+            - generic:
+              - generic: Online
+        - button:
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - generic: Halo, apa yang bisa kami bantu?
+      - generic:
+        - generic:
+          - generic:
+            - button:
+              - img
+            - generic:
+              - textbox "Type your message..."
+            - button [disabled]:
+              - img
+      - generic:
+        - link "⚡ Powered by Zesta":
+          - /url: https://zesta.id
+          - text: ⚡ Powered by
+          - strong: Zesta
+```
