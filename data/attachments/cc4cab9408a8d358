@@ -1,0 +1,292 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!" [ref=e8] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e9]: MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!
+        - link "JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!" [ref=e12] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e13]: JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!
+        - link "SISA 2 HARI LAGI UNTUK ISI SURVEY GPOS LITE! DAPATKAN TOTAL HADIAH RP750.000 UNTUK 10 YANG BERUNTUNG !" [ref=e16] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e17]: SISA 2 HARI LAGI UNTUK ISI SURVEY GPOS LITE! DAPATKAN TOTAL HADIAH RP750.000 UNTUK 10 YANG BERUNTUNG !
+        - link "TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!" [ref=e20] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e21]: TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!
+      - generic [ref=e23]:
+        - link "MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!" [ref=e25] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e26]: MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!
+        - link "JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!" [ref=e29] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e30]: JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!
+        - link "SISA 2 HARI LAGI UNTUK ISI SURVEY GPOS LITE! DAPATKAN TOTAL HADIAH RP750.000 UNTUK 10 YANG BERUNTUNG !" [ref=e33] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e34]: SISA 2 HARI LAGI UNTUK ISI SURVEY GPOS LITE! DAPATKAN TOTAL HADIAH RP750.000 UNTUK 10 YANG BERUNTUNG !
+        - link "TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!" [ref=e37] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e38]: TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - link " Home" [ref=e44] [cursor=pointer]:
+              - /url: /dashboard
+              - generic [ref=e45]: 
+              - text: Home
+            - text: "|"
+          - text: GPOS MINI 3 PROD DEP - QA Testing
+          - generic [ref=e46]:
+            - generic [ref=e47]: 
+            - text: ONLINE
+        - generic [ref=e48]: CASH - CASH
+        - generic [ref=e49]:
+          - generic [ref=e50]: Saturday, 10 October 2026 - 5:48:50 PM
+          - generic [ref=e51]:
+            - text: "|"
+            - link " Help" [ref=e52] [cursor=pointer]:
+              - /url: javascript:void(0)
+              - generic [ref=e53]: 
+              - text: Help
+      - generic [ref=e56]:
+        - generic [ref=e59]:
+          - generic [ref=e62]:
+            - generic [ref=e64]:
+              - generic [ref=e65]: Customer [CTRL+ALT+C]
+              - generic [ref=e66]:
+                - generic [ref=e67]:
+                  - generic [ref=e68]: Budi
+                  - generic [ref=e69]:
+                    - generic [ref=e70]: POIN SAAT INI
+                    - generic [ref=e71]:
+                      - img [ref=e73]
+                      - text: "0"
+                - generic [ref=e76]:
+                  - button "" [active] [ref=e77] [cursor=pointer]:
+                    - generic [ref=e78]: 
+                  - link "" [ref=e79] [cursor=pointer]:
+                    - /url: /customer/quick-create/?iframe=pos&input=customer_id
+                    - generic [ref=e80]: 
+            - generic [ref=e82]:
+              - generic [ref=e83]: Doctor [CTRL+ALT+D]
+              - generic [ref=e84]:
+                - textbox "Enter Doctor" [ref=e85]: Internal
+                - generic [ref=e86]:
+                  - button "" [ref=e87] [cursor=pointer]:
+                    - generic [ref=e88]: 
+                  - link "" [ref=e89] [cursor=pointer]:
+                    - /url: /doctor/create/?iframe=pos&input=doctor_id
+                    - generic [ref=e90]: 
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - text: Total Item
+              - text: 0 / 0
+            - generic [ref=e95]: "0"
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e100]:
+              - generic [ref=e102]:
+                - generic [ref=e103]: PLU / Barcode
+                - generic [ref=e104]:
+                  - textbox "Enter PLU / Barcode [ALT+I]" [ref=e105]
+                  - generic [ref=e106]:
+                    - button "" [ref=e107] [cursor=pointer]:
+                      - generic [ref=e108]: 
+                    - link "" [ref=e109] [cursor=pointer]:
+                      - /url: /prescription/?iframe=pos&input=item_name
+                      - generic [ref=e110]: 
+              - generic [ref=e112]:
+                - generic [ref=e113]: Tuslah
+                - spinbutton [ref=e114]: "0"
+              - generic [ref=e116]:
+                - generic [ref=e117]: Qty
+                - spinbutton [ref=e118]: "0"
+              - generic [ref=e120]:
+                - generic [ref=e121]: Unit
+                - combobox [ref=e122]:
+                  - option "AMP" [selected]
+                  - option "BAG"
+                  - option "BAL"
+                  - option "BANDED"
+                  - option "BKS"
+                  - option "BOX"
+                  - option "BTL"
+                  - option "CAP"
+                  - option "CPLT"
+                  - option "CRM"
+                  - option "GR"
+                  - option "JAM"
+                  - option "KAPLET"
+                  - option "KLG"
+                  - option "MDS"
+                  - option "MG"
+                  - option "OVL"
+                  - option "PAK"
+                  - option "PCS"
+                  - option "POT"
+                  - option "SCHT"
+                  - option "SLP"
+                  - option "SOF"
+                  - option "STR"
+                  - option "SUP"
+                  - option "TAB"
+                  - option "TUB"
+                  - option "VIAL"
+                  - option "ML"
+                  - option "FEN"
+                  - option "LIANG"
+                  - option "Unit Testo"
+                  - option "tube"
+                  - option "KG"
+                  - option "DUS"
+                  - option "CTN"
+                  - option "MTR"
+                  - option "TOP"
+              - generic [ref=e124]:
+                - generic [ref=e125]: Choose Price
+                - combobox [disabled] [ref=e126]:
+                  - option "Harga Jual 1" [selected]
+                  - option "Harga Jual 2"
+                  - option "Harga Jual 3"
+              - generic [ref=e128]:
+                - generic [ref=e129]: Price
+                - spinbutton [ref=e130]: "0"
+              - generic [ref=e132]:
+                - generic [ref=e133]: Discount
+                - textbox "Enter Discount" [ref=e134]: "0"
+              - generic [ref=e136]:
+                - generic [ref=e137]: Sub Total
+                - generic [ref=e138]:
+                  - spinbutton [ref=e139]: "0"
+                  - generic [ref=e140]:
+                    - button "" [ref=e141] [cursor=pointer]:
+                      - generic [ref=e142]: 
+                    - button "" [ref=e143] [cursor=pointer]:
+                      - generic [ref=e144]: 
+            - img [ref=e149] [cursor=pointer]
+          - table [ref=e161]:
+            - rowgroup [ref=e162]:
+              - row "[CTRL+ALT+L] Item Name Qty Unit Tuslah Price Discount Sub Total" [ref=e163]:
+                - columnheader "[CTRL+ALT+L]" [ref=e164]
+                - columnheader "Item Name" [ref=e165]
+                - columnheader "Qty" [ref=e166]
+                - columnheader "Unit" [ref=e167]
+                - columnheader "Tuslah" [ref=e168]
+                - columnheader "Price" [ref=e169]
+                - columnheader "Discount" [ref=e170]
+                - columnheader "Sub Total" [ref=e171]
+            - rowgroup
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - generic [ref=e175]:
+                - generic [ref=e176]: Description
+                - textbox "Enter Description" [ref=e177]
+              - generic [ref=e179]:
+                - generic [ref=e180]: Invoice No.
+                - textbox "Enter Invoice No." [ref=e181]
+              - generic [ref=e183]:
+                - generic [ref=e184]: Status
+                - combobox [ref=e185]:
+                  - option "Pending"
+                  - option "Process"
+                  - option "Billed" [selected]
+              - generic [ref=e187]:
+                - generic [ref=e188]: Auto Add
+                - combobox [ref=e189]:
+                  - option "No" [selected]
+                  - option "Yes"
+              - generic [ref=e191]:
+                - button " Clear [CTRL+ALT+W]" [ref=e193] [cursor=pointer]:
+                  - generic [ref=e194]: 
+                  - text: Clear [CTRL+ALT+W]
+                - button " Search Trans [CTRL+ALT+S]" [ref=e196] [cursor=pointer]:
+                  - generic [ref=e197]: 
+                  - text: Search Trans [CTRL+ALT+S]
+                - button " Payment Detail [CTRL+ALT+P]" [disabled] [ref=e199] [cursor=pointer]:
+                  - generic [ref=e200]: 
+                  - text: Payment Detail [CTRL+ALT+P]
+            - generic [ref=e201]:
+              - generic [ref=e203]:
+                - generic [ref=e204]: Discount (Rp) [CTRL+ALT+A]
+                - textbox "0" [ref=e205]
+              - generic [ref=e207]:
+                - generic [ref=e208]: Charge CC [CTRL+ALT+B]
+                - textbox "0" [ref=e209]
+              - generic [ref=e211]:
+                - generic [ref=e212]: Payment [CTRL+ALT+G]
+                - textbox "0" [ref=e213]
+                - generic [ref=e214]: +0 poin diperoleh dari transaksi ini
+              - generic [ref=e216]:
+                - generic [ref=e217]: Change
+                - textbox "0" [ref=e218]
+                - button "" [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220]: 
+              - button " Save Transaction [F9]" [ref=e222] [cursor=pointer]:
+                - generic [ref=e223]: 
+                - text: Save Transaction [F9]
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - heading "Tebus Murah Tersedia!" [level=2] [ref=e228]
+          - img [ref=e230] [cursor=pointer]
+        - paragraph [ref=e233]: Tawarkan item produk dengan harga spesial ke pelanggan! (Maks. Qty 5 per transaksi)
+        - textbox "Cari produk..." [ref=e234]
+        - paragraph [ref=e235]: Produk tebus murah tidak ditemukan
+      - button "Lihat Laporan Program" [ref=e236] [cursor=pointer]:
+        - text: Lihat Laporan Program
+        - generic [ref=e237]: ›
+    - generic [ref=e238]:
+      - generic [ref=e239]:
+        - generic [ref=e240]:
+          - heading "PROGRAM PRINSIPAL" [level=2] [ref=e241]:
+            - generic [ref=e242]: 🌟
+            - text: PROGRAM PRINSIPAL
+          - img [ref=e244] [cursor=pointer]
+        - paragraph [ref=e246]: Tingkatkan keuntungan usaha Anda! Pilih dan ikuti berbagai program menarik dengan penawaran terbaik khusus untuk Anda.
+      - generic [ref=e248]: Tidak ada program aktif saat ini.
+      - button "Lihat Laporan Program" [ref=e249] [cursor=pointer]:
+        - text: Lihat Laporan Program
+        - generic [ref=e250]: ›
+    - generic [ref=e252]:
+      - paragraph [ref=e253]: Copyright 2016-2026 © All Rights Reserved. GPOS Lite
+      - paragraph [ref=e254]:
+        - text: "Presented by:"
+        - link "PT. Anugrah Argon Medica" [ref=e255] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+  - generic [ref=e256]:
+    - button [ref=e257] [cursor=pointer]:
+      - img [ref=e258]
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - heading "GPOS Care" [level=3]
+            - generic:
+              - generic: Online
+        - button:
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - generic: Halo, apa yang bisa kami bantu?
+      - generic:
+        - generic:
+          - generic:
+            - button:
+              - img
+            - generic:
+              - textbox "Type your message..."
+            - button [disabled]:
+              - img
+      - generic:
+        - link "⚡ Powered by Zesta":
+          - /url: https://zesta.id
+          - text: ⚡ Powered by
+          - strong: Zesta
+  - generic:
+    - iframe
+```
