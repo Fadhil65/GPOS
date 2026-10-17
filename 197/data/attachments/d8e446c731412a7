@@ -1,0 +1,202 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!" [ref=e8] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e9]: MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!
+        - link "JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!" [ref=e12] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e13]: JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!
+        - link "TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!" [ref=e16] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e17]: TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!
+      - generic [ref=e19]:
+        - link "MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!" [ref=e21] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e22]: MAKSIMALKAN PENJUALAN DUMIN KAPLET, DUMIN SYRUP, DUMIN RECTAL, DAN KLAIM INSENTIFNYA!
+        - link "JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!" [ref=e25] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e26]: JUAL KOOLFEVER DAPAT INSENTIF 1000/PCS. MAKIN BANYAK JUAL MAKIN CUAN!
+        - link "TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!" [ref=e29] [cursor=pointer]:
+          - /url: /news
+          - generic [ref=e30]: TAWARKAN IMBOOST PROTEKID, CURCUMA, GASTIN KE PASIEN DAN DAPATKAN INSENTIF HINGGA RATUSAN RIBU RUPIAH!
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - link " Point of Sale (POS)" [ref=e36] [cursor=pointer]:
+          - /url: /point-of-sales
+          - generic [ref=e37]: 
+          - generic [ref=e38]: Point of Sale (POS)
+        - generic [ref=e42]: Online
+      - heading "MINI3 PROD TESTING" [level=2] [ref=e44]:
+        - link "MINI3 PROD TESTING" [ref=e45] [cursor=pointer]:
+          - /url: /dashboard
+          - img "MINI3 PROD TESTING" [ref=e46]
+      - generic [ref=e47]:
+        - link "30" [ref=e48] [cursor=pointer]:
+          - /url: /chat
+          - img [ref=e49]
+          - generic [ref=e50]: "30"
+        - link "99+" [ref=e51] [cursor=pointer]:
+          - /url: javascript:void(0);
+          - img [ref=e52]
+          - generic [ref=e53]: 99+
+        - generic [ref=e54]:
+          - link [ref=e55] [cursor=pointer]:
+            - /url: "#"
+          - text:       
+    - generic [ref=e58]:
+      - generic [ref=e61]: 
+      - list [ref=e63]:
+        - listitem [ref=e64]:
+          - link "Berita" [ref=e65] [cursor=pointer]:
+            - /url: /news
+            - img [ref=e66]
+            - generic [ref=e67]: Berita
+        - listitem [ref=e68]:
+          - link "Dasbor" [ref=e69] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e70]
+            - generic [ref=e71]: Dasbor
+        - listitem [ref=e72]:
+          - link "Perusahaan" [ref=e73] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e74]
+            - generic [ref=e75]: Perusahaan
+        - listitem [ref=e76]:
+          - link "Setup" [ref=e77] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e78]
+            - generic [ref=e79]: Setup
+          - text:        
+        - listitem [ref=e80]:
+          - link "Produk" [ref=e81] [cursor=pointer]:
+            - /url: /item
+            - img [ref=e82]
+            - generic [ref=e83]: Produk
+        - listitem [ref=e84]:
+          - link "Transaksi" [ref=e85] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e86]
+            - generic [ref=e87]: Transaksi
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - link "Pembelian" [ref=e91] [cursor=pointer]:
+                - /url: "#"
+              - list [ref=e92]:
+                - listitem [ref=e93]:
+                  - link "Pesanan Pembelian" [ref=e94] [cursor=pointer]:
+                    - /url: /purchase-order
+                - listitem [ref=e95]:
+                  - link "Penerimaan Barang" [ref=e96] [cursor=pointer]:
+                    - /url: /purchase-receipt
+                - listitem [ref=e97]:
+                  - link "Faktur Pembelian" [ref=e98] [cursor=pointer]:
+                    - /url: /purchase-invoice
+                - listitem [ref=e99]:
+                  - link "Retur Pembelian" [ref=e100] [cursor=pointer]:
+                    - /url: /purchase-return
+              - text: 
+            - listitem [ref=e101]:
+              - link "Penjualan" [active] [ref=e102] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e103]:
+              - link "Persediaan" [ref=e104] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e105]:
+              - link "Medikal" [ref=e106] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e107]:
+              - link "Keuangan" [ref=e108] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e109]:
+              - link "Buku Besar" [ref=e110] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e111]:
+              - link "Kas & Bank" [ref=e112] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e113]:
+              - link "Promosi" [ref=e114] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+            - listitem [ref=e115]:
+              - link "Arsip Akuntansi Lama" [ref=e116] [cursor=pointer]:
+                - /url: "#"
+              - text: 
+        - listitem [ref=e117]:
+          - link "Laporan" [ref=e118] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e119]
+            - generic [ref=e120]: Laporan
+          - text:         
+        - listitem [ref=e121]:
+          - link "Online" [ref=e122] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e123]
+            - generic [ref=e124]: Online
+        - listitem [ref=e125]:
+          - link "Belanja" [ref=e126] [cursor=pointer]:
+            - /url: /shop-b2b
+            - img [ref=e127]
+            - generic [ref=e128]: Belanja
+        - listitem [ref=e129]:
+          - link "Pengadaan" [ref=e130] [cursor=pointer]:
+            - /url: /smart-forecasting
+            - img [ref=e131]
+            - generic [ref=e132]: Pengadaan
+    - text:                     
+    - iframe [ref=e140]:
+      
+    - generic [ref=e142]:
+      - paragraph [ref=e143]: Hak Cipta 2016-2026. Seluruh Properti Dilindungi Hak Cipta. GPOS Lite
+      - paragraph [ref=e144]:
+        - text: "Dipersembahkan Oleh:"
+        - link "PT. Anugrah Argon Medica" [ref=e145] [cursor=pointer]:
+          - /url: https://www.argon-group.com
+        - text: .
+        - combobox [ref=e146]:
+          - option "Indonesia" [selected]
+  - generic:
+    - iframe
+  - generic [ref=e147]:
+    - button [ref=e148] [cursor=pointer]:
+      - img [ref=e149]
+    - generic:
+      - generic:
+        - generic:
+          - button "Riwayat Percakapan":
+            - img
+          - generic:
+            - heading "GPOS Care" [level=3]
+            - generic:
+              - generic: Online
+        - button:
+          - img
+      - generic:
+        - generic:
+          - generic:
+            - generic: Halo, apa yang bisa kami bantu?
+      - generic:
+        - generic:
+          - generic:
+            - button:
+              - img
+            - generic:
+              - textbox "Type your message..."
+            - button [disabled]:
+              - img
+      - generic:
+        - link "⚡ Powered by Zesta":
+          - /url: https://zesta.id
+          - text: ⚡ Powered by
+          - strong: Zesta
+```
